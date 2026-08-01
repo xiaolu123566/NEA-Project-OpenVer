@@ -1,6 +1,6 @@
 # NEA Runtime Compatibility Phase 5 Audit
 
-Generated: 2026-08-01T01:46:10.808Z
+Generated: 2026-08-01T12:51:31.350Z
 Overall status: **complete**
 
 ## Requirements
@@ -33,7 +33,7 @@ Crouch/fly state encoding and client motor behavior are recovered; unavailable h
 - Middleware/runtime-compat/abi/physics-player-posture.json: {"crouching":{"stateStatus":"confirmed","confirmedClientEffects":["crouch-speed","crouch-acceleration","edge-occupancy-limiting"],"clientShapeMutation":"absent","authoritativeShape":{"status":"evidence-deferred","boundsHalfExtents":null,"shapeHalfExtents":null,"dimensions":null,"wireFields":{"rx":null,"ry":null,"rz":null,"hsx":null,"hsy":null,"hsz":null}}},"flying":{"stateStatus":"confirmed","confirmedClientEffects":["gravity-flag","collision-flag","vertical-motor-force"],"clientShapeMutation":"absent","authoritativeShape":{"status":"evidence-deferred","boundsHalfExtents":null,"shapeHalfExtents":null,"dimensions":null,"wireFields":{"rx":null,"ry":null,"rz":null,"hsx":null,"hsy":null,"hsz":null}}},"compatibilityPolicy":{"onUnknownAuthoritativeShape":"preserve-current-collider","requireCompleteAuthoritativeShape":true,"historicalClaim":false},"captureEvidence":"The explicit captures, inspected Player profile stores, and legacy worktree contain no historical binary server-to-client PUBLIC body frame."}
 - Middleware/runtime-compat/generated/legacy-worktree-posture-inventory.json: {"clientShapeWrites":[],"legacyProducer":"local-reproduction-not-historical-evidence","authoritativeStatus":"unresolved"}
 - Middleware/runtime-compat/generated/posture-delta-corpus-inventory.json: {"captures":9,"clientToServerBinaryFrames":1864,"serverToClientBinaryFrames":0,"resourceArchives":3,"rawReplayPayloadAvailable":false,"status":"not-found-in-safe-local-frame-corpus"}
-- Middleware/runtime-compat/generated/authoritative-runtime-evidence-coverage.json: {"indexedSourceSets":["origin-server-runtime","lokibox-runtime-adapters","local-player-backend","archived-player-bundle","player-browser-profile","legacy-worktree","posture-delta-frame-corpus"],"producerStatus":"not-found-in-indexed-local-evidence","contactBindingStatus":"reference-only"}
+- Middleware/runtime-compat/generated/authoritative-runtime-evidence-coverage.json: {"indexedSourceSets":["origin-server-runtime","local-player-backend","archived-player-bundle","player-browser-profile","legacy-worktree","posture-delta-frame-corpus"],"producerStatus":"not-found-in-indexed-local-evidence","contactBindingStatus":"reference-only"}
 
 ### terrain-contact-rules: complete
 

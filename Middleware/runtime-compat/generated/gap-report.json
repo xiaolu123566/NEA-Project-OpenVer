@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-gap-report",
   "version": 1,
-  "generatedAt": "2026-08-01T01:41:36.295Z",
+  "generatedAt": "2026-08-01T12:51:31.592Z",
   "summary": {
     "documentedDeclarations": 599,
     "currentContractEntries": 639,
@@ -75,7 +75,6 @@
       "blockingCurrentPhase": false,
       "indexedSourceSets": [
         "origin-server-runtime",
-        "lokibox-runtime-adapters",
         "local-player-backend",
         "archived-player-bundle",
         "player-browser-profile",

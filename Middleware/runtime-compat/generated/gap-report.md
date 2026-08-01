@@ -1,6 +1,6 @@
 # Runtime Compatibility Gap Report
 
-Generated: 2026-08-01T01:41:36.295Z
+Generated: 2026-08-01T12:51:31.592Z
 
 ## Summary
 
@@ -47,7 +47,7 @@ Generated: 2026-08-01T01:41:36.295Z
 - Blocking current phase: false
 - Posture frame corpus: not-found-in-safe-local-frame-corpus
 - Captured binary traffic: 1864 client-to-server; 0 server-to-client
-- Indexed source sets: origin-server-runtime, lokibox-runtime-adapters, local-player-backend, archived-player-bundle, player-browser-profile, legacy-worktree, posture-delta-frame-corpus
+- Indexed source sets: origin-server-runtime, local-player-backend, archived-player-bundle, player-browser-profile, legacy-worktree, posture-delta-frame-corpus
 - ContactBinding: reference-only
 - Per-contact force: confirmed-historical-production-local-compatible
 - Aggregate contactForce: unresolved

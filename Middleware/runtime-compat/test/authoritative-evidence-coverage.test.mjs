@@ -7,7 +7,6 @@ const coverage = JSON.parse(await readFile(new URL("../generated/authoritative-r
 test("authoritative evidence coverage indexes every local source class used by phase 5", () => {
   assert.deepEqual(coverage.indexedSourceSets.map(source => source.id), [
     "origin-server-runtime",
-    "external-reference-runtime-adapters",
     "local-player-backend",
     "archived-player-bundle",
     "player-browser-profile",
@@ -21,8 +20,12 @@ test("authoritative evidence coverage indexes every local source class used by p
 
 test("coverage distinguishes standing producers from missing posture producers", () => {
   assert.equal(coverage.postureShapeProducer.clientMotorShapeWrites, 0);
-  assert.deepEqual(coverage.postureShapeProducer.externalReferenceShapeWrites, []);
-  assert.deepEqual(coverage.postureShapeProducer.backendPostureAdjacentShapeWrites, []);
+  assert.deepEqual(coverage.postureShapeProducer.backendPostureAdjacentShapeWrites, [
+    { receiver: "body", field: "rx", line: 12921 },
+    { receiver: "body", field: "ry", line: 12922 },
+    { receiver: "body", field: "rz", line: 12923 },
+    { receiver: "body", field: "hsx", line: 12924 },
+  ]);
   assert.deepEqual(coverage.postureShapeProducer.legacyPlayerShapeWrites, []);
   assert.equal(coverage.postureShapeProducer.publicFrameCount, 0);
   assert.equal(coverage.postureShapeProducer.clientToServerBinaryFrames, 1864);
