@@ -65,28 +65,6 @@ world.onPlayerJoin(({ player }) => {
   });
 });
 
-const demoHttpFetch = async () => {
-  try {
-    const response = await http.fetch("https://example.com", { timeout: 8000 });
-    const text = await response.text();
-    remoteChannel.broadcastClientEvent({
-      type: "nea-demo:http-result",
-      ok: response.ok,
-      status: response.status,
-      statusText: response.statusText,
-      bodyLength: text.length,
-      preview: text.slice(0, 96),
-      contentType: response.headers?.["content-type"] ?? null,
-    });
-  } catch (error) {
-    remoteChannel.broadcastClientEvent({
-      type: "nea-demo:http-error",
-      message: String(error?.message ?? error),
-    });
-  }
-};
-setTimeout(demoHttpFetch, 2500);
-
 world.onVoxelContact(({ player, voxel, axis, force }) => {
   if (voxel !== 631 || axis.y !== 1) return;
   if (force === null) console.warn("Historical contact force remains unresolved in the compatibility runtime.");

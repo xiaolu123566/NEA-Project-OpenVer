@@ -150,7 +150,7 @@ export class ScriptRuntime {
       resolvePlayerId: entity => this.#playerIds.get(entity) ?? entity?.id,
     });
     this.zones = new GameZoneSystem();
-    this.http = options.http ?? createRuntimeHttpClient({ logger: this.logger });
+    this.http = options.http ?? createRuntimeHttpClient({ ...options.httpOptions, logger: this.logger });
     this.runtimeApiVersion = options.runtimeApiVersion;
     this.serverContract = options.serverContract;
     this.compatibilityLevel = options.compatibilityLevel;
@@ -256,6 +256,7 @@ export class ScriptRuntime {
       cancelDialogs: options.cancelDialogs,
       physics: { ...physicsSnapshot, ...options.physics },
       storageScope: options.storageScope,
+      httpOptions: options.httpOptions,
     });
   }
 

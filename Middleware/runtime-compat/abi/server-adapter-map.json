@@ -1,7 +1,7 @@
 {
   "format": "nea-server-adapter-map",
   "version": 1,
-  "generatedAt": "2026-08-01T14:15:39.842Z",
+  "generatedAt": "2026-07-31T11:20:50.115Z",
   "contract": "nea-server-runtime/v1",
   "adapters": [
     {
@@ -1209,70 +1209,6 @@
       "gaps": [
         "RuntimePlayer remains a subset of historical GamePlayerEntity."
       ]
-    },
-    {
-      "localId": "server.global.http",
-      "canonicalId": "server.global.http",
-      "status": "compatible",
-      "gaps": [
-        "Local fetch only permits http/https targets, bounds timeouts, and rejects response bodies beyond the configured byte limit."
-      ]
-    },
-    {
-      "localId": "server.GameHttpAPI.fetch",
-      "canonicalId": "server.GameHttpAPI.fetch",
-      "status": "compatible",
-      "gaps": [
-        "Local fetch only permits http/https targets, bounds timeouts, and rejects response bodies beyond the configured byte limit."
-      ]
-    },
-    {
-      "localId": "server.GameHttpAPI.ok",
-      "canonicalId": "server.GameHttpAPI.ok",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.status",
-      "canonicalId": "server.GameHttpAPI.status",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.statusText",
-      "canonicalId": "server.GameHttpAPI.statusText",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.headers",
-      "canonicalId": "server.GameHttpAPI.headers",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.json",
-      "canonicalId": "server.GameHttpAPI.json",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.text",
-      "canonicalId": "server.GameHttpAPI.text",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.arrayBuffer",
-      "canonicalId": "server.GameHttpAPI.arrayBuffer",
-      "status": "compatible",
-      "gaps": []
-    },
-    {
-      "localId": "server.GameHttpAPI.close",
-      "canonicalId": "server.GameHttpAPI.close",
-      "status": "compatible",
-      "gaps": []
     }
   ]
 }

@@ -14,6 +14,14 @@ const archiveRoot = resolve(fileURLToPath(new URL("../../../Backend/local-player
 const blockCatalog = await loadPreservedBlockCatalog(archiveRoot, "world-bedwars.json");
 const silentLogger = { info() {}, warn() {}, error() {} };
 
+function createAllowedHttpClient(port, options = {}) {
+  return createRuntimeHttpClient({
+    ...options,
+    allowedOrigins: [`http://127.0.0.1:${port}`],
+    logger: silentLogger,
+  });
+}
+
 async function withHttpServer(handler, run) {
   const server = createServer(handler);
   await new Promise((resolveListening, reject) => server.once("error", reject).listen(0, "127.0.0.1", resolveListening));
@@ -31,7 +39,7 @@ test("fetches JSON and exposes the recovered GameHttpFetchResponse surface", asy
     response.writeHead(200, "OK", { "content-type": "application/json", "x-demo": "yes" });
     response.end(JSON.stringify({ hello: "world", count: 3 }));
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger });
+    const client = createAllowedHttpClient(port);
     const response = await client.fetch(`http://127.0.0.1:${port}/json`);
     assert.ok(response instanceof GameHttpFetchResponse);
     assert.equal(response.ok, true);
@@ -48,7 +56,7 @@ test("marks non-2xx responses as not ok without rejecting", async () => {
     response.writeHead(404, "Not Found");
     response.end("missing");
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger });
+    const client = createAllowedHttpClient(port);
     const response = await client.fetch(`http://127.0.0.1:${port}/missing`);
     assert.equal(response.ok, false);
     assert.equal(response.status, 404);
@@ -66,7 +74,7 @@ test("sends the recovered method, headers and body options", async () => {
       response.end(JSON.stringify({ method: request.method, auth: request.headers.authorization, echo: Buffer.concat(chunks).toString() }));
     });
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger });
+    const client = createAllowedHttpClient(port);
     const response = await client.fetch(`http://127.0.0.1:${port}/echo`, {
       method: "POST",
       headers: { authorization: "Bearer demo" },
@@ -78,7 +86,7 @@ test("sends the recovered method, headers and body options", async () => {
 });
 
 test("rejects unsupported protocols, methods, bodies and timeouts", async () => {
-  const client = createRuntimeHttpClient({ logger: silentLogger });
+  const client = createRuntimeHttpClient({ allowedOrigins: ["https://example.com"], logger: silentLogger });
   await assert.rejects(() => client.fetch("ftp://example.com/file"), /Unsupported protocol: ftp:/);
   await assert.rejects(() => client.fetch("https://example.com", { method: "TRACE" }), /Unsupported request method: TRACE/);
   await assert.rejects(() => client.fetch("https://example.com", { body: { data: 1 } }), /HTTP body must be a string or an ArrayBuffer/);
@@ -90,7 +98,7 @@ test("times out when the remote stays silent beyond the timeout", async () => {
   await withHttpServer((request, response) => {
     setTimeout(() => response.end("late"), 400);
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger });
+    const client = createAllowedHttpClient(port);
     await assert.rejects(() => client.fetch(`http://127.0.0.1:${port}/slow`, { timeout: 50 }), /timed out after 50ms/);
   });
 });
@@ -100,7 +108,7 @@ test("rejects oversized response bodies", async () => {
     response.writeHead(200, "OK");
     response.end("x".repeat(512));
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger, maxResponseBytes: 128 });
+    const client = createAllowedHttpClient(port, { maxResponseBytes: 128 });
     await assert.rejects(() => client.fetch(`http://127.0.0.1:${port}/big`), /exceeds the 128-byte limit/);
   });
 });
@@ -110,7 +118,7 @@ test("close releases the response and later reads reject", async () => {
     response.writeHead(200, "OK");
     response.end("closable");
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger });
+    const client = createAllowedHttpClient(port);
     const response = await client.fetch(`http://127.0.0.1:${port}/close`);
     assert.equal(await response.text(), "closable");
     await response.close();
@@ -125,7 +133,7 @@ test("exposes arrayBuffer bytes", async () => {
     response.writeHead(200, "OK", { "content-type": "application/octet-stream" });
     response.end(Buffer.from([0, 1, 2, 255]));
   }, async port => {
-    const client = createRuntimeHttpClient({ logger: silentLogger });
+    const client = createAllowedHttpClient(port);
     const response = await client.fetch(`http://127.0.0.1:${port}/bin`);
     const buffer = await response.arrayBuffer();
     assert.deepEqual([...new Uint8Array(buffer)], [0, 1, 2, 255]);
@@ -166,7 +174,11 @@ test("server scripts can fetch over the runtime http global", async () => {
           });
       });
     `, "utf8");
-    const runtime = await ScriptRuntime.load(output, { blockCatalog, logger: silentLogger });
+    const runtime = await ScriptRuntime.load(output, {
+      blockCatalog,
+      logger: silentLogger,
+      httpOptions: { allowedOrigins: [`http://127.0.0.1:${port}`] },
+    });
     await runtime.start();
     const player = runtime.addPlayer({ id: "http-writer" });
     for (let attempt = 0; attempt < 100 && player.httpResult === undefined; attempt += 1) {
@@ -175,4 +187,9 @@ test("server scripts can fetch over the runtime http global", async () => {
     runtime.stop();
     assert.deepEqual(JSON.parse(JSON.stringify(player.httpResult)), { ok: true, status: 200, body: { tick: 7 } });
   });
+});
+
+test("denies requests unless the host explicitly allows the origin", async () => {
+  const client = createRuntimeHttpClient({ logger: silentLogger });
+  await assert.rejects(() => client.fetch("https://example.com"), /HTTP origin is not allowed/);
 });

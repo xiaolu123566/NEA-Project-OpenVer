@@ -72,6 +72,7 @@ export function createRuntimeHttpClient(options = {}) {
   if (typeof fetchImpl !== "function") throw new Error("A fetch implementation is required");
   const maxResponseBytes = options.maxResponseBytes ?? DEFAULT_MAX_RESPONSE_BYTES;
   const defaultTimeoutMs = options.defaultTimeoutMs ?? DEFAULT_TIMEOUT_MS;
+  const allowedOrigins = normalizeAllowedOrigins(options.allowedOrigins);
   const logger = options.logger ?? console;
 
   return {
@@ -80,24 +81,26 @@ export function createRuntimeHttpClient(options = {}) {
       requestOptions,
       maxResponseBytes,
       defaultTimeoutMs,
+      allowedOrigins,
       logger,
     }),
   };
 }
 
-async function fetchExternal(fetchImpl, { url, requestOptions, maxResponseBytes, defaultTimeoutMs, logger }) {
+async function fetchExternal(fetchImpl, { url, requestOptions, maxResponseBytes, defaultTimeoutMs, allowedOrigins, logger }) {
   const target = new URL(String(url));
   if (!ALLOWED_PROTOCOLS.has(target.protocol)) throw new Error(`Unsupported protocol: ${target.protocol}`);
+  if (!allowedOrigins.has(target.origin)) throw new Error(`HTTP origin is not allowed: ${target.origin}`);
   const method = normalizeMethod(requestOptions?.method);
   const timeout = normalizeTimeout(requestOptions?.timeout, defaultTimeoutMs);
   const headers = normalizeRequestHeaders(requestOptions?.headers);
   const body = normalizeBody(requestOptions?.body);
   const signal = AbortSignal.timeout(timeout);
   const startedAt = Date.now();
-  logger.info(`[http] ${method} ${target.href} timeout=${timeout}ms`);
+  logger.info(`[http] ${method} ${target.origin} timeout=${timeout}ms`);
   let nativeResponse;
   try {
-    nativeResponse = await fetchImpl(target, { method, headers, body, signal });
+    nativeResponse = await fetchImpl(target, { method, headers, body, signal, redirect: "error" });
   } catch (error) {
     throw new Error(`HTTP request failed: ${error?.name === "TimeoutError" ? `timed out after ${timeout}ms` : error?.message ?? error}`);
   }
@@ -105,7 +108,7 @@ async function fetchExternal(fetchImpl, { url, requestOptions, maxResponseBytes,
     const buffer = await nativeResponse.arrayBuffer();
     if (buffer.byteLength > maxResponseBytes) throw new Error(`Response body exceeds the ${maxResponseBytes}-byte limit`);
     const responseHeaders = collectHeaders(nativeResponse.headers);
-    logger.info(`[http] ${method} ${target.href} -> ${nativeResponse.status} (${buffer.byteLength} bytes, ${Date.now() - startedAt}ms)`);
+    logger.info(`[http] ${method} ${target.origin} -> ${nativeResponse.status} (${buffer.byteLength} bytes, ${Date.now() - startedAt}ms)`);
     return new GameHttpFetchResponse(nativeResponse.status, nativeResponse.statusText, responseHeaders, buffer);
   } catch (error) {
     if (nativeResponse?.body?.cancel) {
@@ -113,6 +116,18 @@ async function fetchExternal(fetchImpl, { url, requestOptions, maxResponseBytes,
     }
     throw error;
   }
+}
+
+function normalizeAllowedOrigins(origins) {
+  if (origins === undefined) return new Set();
+  if (!Array.isArray(origins)) throw new Error("HTTP allowedOrigins must be an array");
+  return new Set(origins.map(origin => {
+    const target = new URL(String(origin));
+    if (!ALLOWED_PROTOCOLS.has(target.protocol) || target.pathname !== "/" || target.search || target.hash) {
+      throw new Error(`Invalid HTTP allowed origin: ${origin}`);
+    }
+    return target.origin;
+  }));
 }
 
 function normalizeMethod(method) {

@@ -23,8 +23,6 @@ const relativeGameGuiPath = "Frontend/demo-map/src/runtime/game-gui.mjs";
 const gameGuiSource = await readFile(resolve(repositoryRoot, relativeGameGuiPath), "utf8");
 const relativeGameStoragePath = "Frontend/demo-map/src/runtime/game-storage.mjs";
 const gameStorageSource = await readFile(resolve(repositoryRoot, relativeGameStoragePath), "utf8");
-const relativeGameHttpPath = "Frontend/demo-map/src/runtime/game-http.mjs";
-const gameHttpSource = await readFile(resolve(repositoryRoot, relativeGameHttpPath), "utf8");
 const relativeGameWorldPath = "Frontend/demo-map/src/runtime/game-world.mjs";
 const gameWorldSource = await readFile(resolve(repositoryRoot, relativeGameWorldPath), "utf8");
 const relativeGameSoundPath = "Frontend/demo-map/src/runtime/game-sound.mjs";
@@ -42,7 +40,6 @@ const requiredMarkers = [
   "const voxels = createCapabilityFacade(this.voxels",
   "const gui = createCapabilityFacade(this.gui",
   "const storage = createCapabilityFacade(this.storage",
-  "const http = createCapabilityFacade(this.http, () => this.#require(\"server.http\"))",
   "const guardedWorld = createCapabilityFacade(world",
   "onTick: handler => this.#listen(\"server.world.events\"",
   "const timing = createTickTiming(this.currentTick, prevTick, now, this.#prevTickMS)",
@@ -146,9 +143,6 @@ for (const marker of ["export class GameGuiRuntime", 'this.init = (entity, confi
 }
 for (const marker of ["export class LocalGameStorage", "export class RuntimeDataStorage", "export class RuntimeQueryList", "#mutationQueue = Promise.resolve()", "#mutate(operation)", "isJsonValue(value, ancestors)", "Number.isFinite(value)", "Object.getOwnPropertySymbols(value)", "this.getDataStorage = key =>", "group:${groupId}:${key}", "set: (itemKey, value) =>", "update: (itemKey, handler) =>", "increment: (itemKey, value = 1) =>", "list: (options = {}) =>", "parseConstraintTarget", "resolveConstraintTarget", "compareStorageTargets", "Math.min(100", "remove: itemKey =>", "destroy: () =>", "const start = page * pageSize", "if (next.items.length > 0) this.#items = next.items"]) {
   if (!gameStorageSource.includes(marker)) throw new Error(`Local GameStorage Runtime no longer contains ${marker}`);
-}
-for (const marker of ["export class GameHttpFetchResponse", "get ok() {", "get status() {", "get statusText() {", "get headers() {", "async json() {", "async text() {", "async arrayBuffer() {", "async close() {", "export function createRuntimeHttpClient", "AbortSignal.timeout(timeout)", "new URL(String(url))", "Unsupported protocol", "Unsupported request method", "collectHeaders"]) {
-  if (!gameHttpSource.includes(marker)) throw new Error(`Local GameHttpAPI Runtime no longer contains ${marker}`);
 }
 for (const marker of ["export class RuntimeRaycastResult", "export function raycastWorld", "return new RuntimeRaycastResult", "options?.ignoreVoxel === true", "options?.ignoreFluid === true", "options?.ignoreEntities === true", "options?.ignoreSelector", "return Infinity", "nearest?.position ?? new Vector3(0, 0, 0)", "voxelIndex:", "hitEntity:"]) {
   if (!gameRaycastSource.includes(marker)) throw new Error(`Local GameWorld.raycast Runtime no longer contains ${marker}`);
@@ -483,16 +477,6 @@ const entries = [
   entry("server.RuntimeQueryList.isLastPage", "property", "RuntimeQueryList", "isLastPage", { type: "boolean", readonly: false }, "server.storage", "partial", ["server.QueryList.isLastPage"]),
   entry("server.RuntimeQueryList.getCurrentPage", "method", "RuntimeQueryList", "getCurrentPage", { parameters: [], returns: "ReturnValue[]" }, "server.storage", "partial", ["server.QueryList.getCurrentPage"]),
   entry("server.RuntimeQueryList.nextPage", "method", "RuntimeQueryList", "nextPage", { parameters: [], returns: "Promise<void>" }, "server.storage", "partial", ["server.QueryList.nextPage"]),
-  entry("server.global.http", "object", null, "http", { type: "GameHttpAPI" }, "server.http", "compatible", ["server.global.http"]),
-  httpFetchEntry(),
-  httpEntry("server.GameHttpAPI.ok", "property", "ok", { type: "boolean", readonly: true }),
-  httpEntry("server.GameHttpAPI.status", "property", "status", { type: "number", readonly: true }),
-  httpEntry("server.GameHttpAPI.statusText", "property", "statusText", { type: "string", readonly: true }),
-  httpEntry("server.GameHttpAPI.headers", "property", "headers", { type: "GameHttpFetchHeaders", readonly: true }),
-  httpEntry("server.GameHttpAPI.json", "method", "json", { parameters: [], returns: "Promise<any>" }),
-  httpEntry("server.GameHttpAPI.text", "method", "text", { parameters: [], returns: "Promise<string>" }),
-  httpEntry("server.GameHttpAPI.arrayBuffer", "method", "arrayBuffer", { parameters: [], returns: "Promise<ArrayBuffer>" }),
-  httpEntry("server.GameHttpAPI.close", "method", "close", { parameters: [], returns: "Promise<void>" }),
   ...zoneEntries(),
   entry("server.remoteChannel.onServerEvent", "event", "remoteChannel", "onServerEvent", handler("{tick,entity,args}"), "server.remote-channel", "bridged"),
   entry("server.remoteChannel.sendClientEvent", "method", "remoteChannel", "sendClientEvent", {
@@ -659,16 +643,6 @@ const adapters = [
   adapter("server.remoteChannel.onServerEvent", "server.remoteChannel.onServerEvent", "compatible", []),
   adapter("server.remoteChannel.sendClientEvent", "server.remoteChannel.sendClientEvent", "compatible", ["RuntimePlayer remains a subset of historical GamePlayerEntity."]),
   adapter("server.remoteChannel.broadcastClientEvent", "server.remoteChannel.broadcastClientEvent", "compatible", ["RuntimePlayer remains a subset of historical GamePlayerEntity."]),
-  adapter("server.global.http", "server.global.http", "compatible", ["Local fetch only permits http/https targets, bounds timeouts, and rejects response bodies beyond the configured byte limit."]),
-  adapter("server.GameHttpAPI.fetch", "server.GameHttpAPI.fetch", "compatible", ["Local fetch only permits http/https targets, bounds timeouts, and rejects response bodies beyond the configured byte limit."]),
-  adapter("server.GameHttpAPI.ok", "server.GameHttpAPI.ok", "compatible", []),
-  adapter("server.GameHttpAPI.status", "server.GameHttpAPI.status", "compatible", []),
-  adapter("server.GameHttpAPI.statusText", "server.GameHttpAPI.statusText", "compatible", []),
-  adapter("server.GameHttpAPI.headers", "server.GameHttpAPI.headers", "compatible", []),
-  adapter("server.GameHttpAPI.json", "server.GameHttpAPI.json", "compatible", []),
-  adapter("server.GameHttpAPI.text", "server.GameHttpAPI.text", "compatible", []),
-  adapter("server.GameHttpAPI.arrayBuffer", "server.GameHttpAPI.arrayBuffer", "compatible", []),
-  adapter("server.GameHttpAPI.close", "server.GameHttpAPI.close", "compatible", []),
 ];
 
 const analysis = {
@@ -694,7 +668,6 @@ const analysis = {
   storageSource: { path: relativeGameStoragePath, bytes: Buffer.byteLength(gameStorageSource), sha256: createHash("sha256").update(gameStorageSource).digest("hex") },
   worldSource: { path: relativeGameWorldPath, bytes: Buffer.byteLength(gameWorldSource), sha256: createHash("sha256").update(gameWorldSource).digest("hex") },
   zonesSource: { path: relativeGameZonesPath, bytes: Buffer.byteLength(gameZonesSource), sha256: createHash("sha256").update(gameZonesSource).digest("hex") },
-  httpSource: { path: relativeGameHttpPath, bytes: Buffer.byteLength(gameHttpSource), sha256: createHash("sha256").update(gameHttpSource).digest("hex") },
   contract: "nea-server-runtime/v1",
   entries,
   adapters,
@@ -1244,35 +1217,6 @@ function voxelEntry(id, kind, owner, name, signature, phase = 1) {
 
 function handler(eventType) {
   return { parameters: [{ name: "handler", type: `(${eventType})=>void` }], returns: "listener-token" };
-}
-
-function httpFetchEntry() {
-  const value = entry("server.GameHttpAPI.fetch", "method", "GameHttpAPI", "fetch", {
-    parameters: [
-      { name: "url", type: "URL" },
-      { name: "options", type: "Partial<GameHttpFetchRequestOptions>", optional: true },
-    ],
-    returns: "Promise<GameHttpFetchResponse>",
-  }, "server.http", "compatible", ["server.GameHttpAPI.fetch"]);
-  value.notes = ["Local fetch performs host-side requests over http/https only, bounds timeouts to 60s, and rejects response bodies beyond the configured byte limit."];
-  value.evidence = [
-    { type: "local-source", path: relativeGameHttpPath, symbol: "createRuntimeHttpClient", confidence: "direct" },
-    { type: "docs", path: "dao3-docs-mirror/markdown/api/GameHttpAPI/request.md", symbol: "GameHttpAPI.fetch", confidence: "direct" },
-    { type: "origin-source", path: "origin/origin/origin/api/GameHttpAPI.js", symbol: "GameHttpAPI.fetch", confidence: "direct" },
-    { type: "test", path: "Frontend/demo-map/test/game-http.test.mjs", symbol: "GameHttpAPI fetch conformance", confidence: "direct" },
-  ];
-  return value;
-}
-
-function httpEntry(id, kind, name, signature) {
-  const value = entry(id, kind, "GameHttpAPI", name, signature, "server.http", "compatible", [id]);
-  value.evidence = [
-    { type: "local-source", path: relativeGameHttpPath, symbol: `GameHttpFetchResponse.${name}`, confidence: "direct" },
-    { type: "docs", path: "dao3-docs-mirror/markdown/api/GameHttpAPI/response.md", symbol: name, confidence: "direct" },
-    { type: "origin-source", path: "origin/origin/origin/api/GameHttpFetchResponse.js", symbol: name, confidence: "direct" },
-    { type: "test", path: "Frontend/demo-map/test/game-http.test.mjs", symbol: "GameHttpFetchResponse surface", confidence: "direct" },
-  ];
-  return value;
 }
 
 function adapter(localId, canonicalId, status, gaps) {

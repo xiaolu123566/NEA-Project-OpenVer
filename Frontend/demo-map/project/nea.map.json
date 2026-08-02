@@ -33,8 +33,7 @@
       "server.storage",
       "server.player",
       "server.player.write",
-      "server.remote-channel",
-      "server.http"
+      "server.remote-channel"
     ],
     "clientCapabilities": [
       "client.core",
