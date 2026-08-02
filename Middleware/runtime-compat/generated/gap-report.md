@@ -1,11 +1,11 @@
 # Runtime Compatibility Gap Report
 
-Generated: 2026-08-01T01:41:36.295Z
+Generated: 2026-08-01T15:56:56.477Z
 
 ## Summary
 
 - Documentation declarations: 599
-- Current contract entries: 639
+- Current contract entries: 649
 - Recovered compatible entries: 728
 - Identifier/canonical matches: 392
 - Documented declarations still missing: 207
@@ -47,7 +47,7 @@ Generated: 2026-08-01T01:41:36.295Z
 - Blocking current phase: false
 - Posture frame corpus: not-found-in-safe-local-frame-corpus
 - Captured binary traffic: 1864 client-to-server; 0 server-to-client
-- Indexed source sets: origin-server-runtime, lokibox-runtime-adapters, local-player-backend, archived-player-bundle, player-browser-profile, legacy-worktree, posture-delta-frame-corpus
+- Indexed source sets: origin-server-runtime, local-player-backend, archived-player-bundle, player-browser-profile, legacy-worktree, posture-delta-frame-corpus
 - ContactBinding: reference-only
 - Per-contact force: confirmed-historical-production-local-compatible
 - Aggregate contactForce: unresolved

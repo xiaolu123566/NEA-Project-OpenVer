@@ -1,24 +1,19 @@
 {
   "format": "nea-authoritative-runtime-evidence-coverage",
   "version": 1,
-  "generatedAt": "2026-07-31T04:39:05.586Z",
+  "generatedAt": "2026-08-01T15:56:56.221Z",
   "indexedSourceSets": [
     {
       "id": "origin-server-runtime",
-      "path": "origin/origin/origin",
+      "path": "Evidence/origin/origin/origin",
       "files": 87
     },
     {
-      "id": "lokibox-runtime-adapters",
-      "path": "Lokibox/lokibox-merged-bypass/src",
-      "files": 136
-    },
-    {
       "id": "local-player-backend",
-      "path": "local-player/backend/box3-server.cjs",
+      "path": "Backend/local-player/backend/box3-server.cjs",
       "files": 1,
-      "bytes": 652833,
-      "sha256": "781760ff619c95c7eab835dabc198e08b3b445177ffa479a3893bf10e1b68b43"
+      "bytes": 665525,
+      "sha256": "59ba4641254e49782d111c32f7d94b7888cbbe5cdcdbe1ec8648f129fa4a89de"
     },
     {
       "id": "archived-player-bundle",
@@ -38,7 +33,7 @@
     },
     {
       "id": "posture-delta-frame-corpus",
-      "path": "runtime-compat/generated/posture-delta-corpus-inventory.json",
+      "path": "Middleware/runtime-compat/generated/posture-delta-corpus-inventory.json",
       "files": 416
     }
   ],
@@ -52,7 +47,6 @@
   },
   "postureShapeProducer": {
     "clientMotorShapeWrites": 0,
-    "lokiboxShapeWrites": [],
     "backendShapeWrites": [
       {
         "receiver": "left",
@@ -175,7 +169,28 @@
         "field": "hsz"
       }
     ],
-    "backendPostureAdjacentShapeWrites": [],
+    "backendPostureAdjacentShapeWrites": [
+      {
+        "receiver": "body",
+        "field": "rx",
+        "line": 12921
+      },
+      {
+        "receiver": "body",
+        "field": "ry",
+        "line": 12922
+      },
+      {
+        "receiver": "body",
+        "field": "rz",
+        "line": 12923
+      },
+      {
+        "receiver": "body",
+        "field": "hsx",
+        "line": 12924
+      }
+    ],
     "legacyPlayerShapeWrites": [],
     "cachedPlayRoutes": [
       {

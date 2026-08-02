@@ -6,13 +6,10 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const repositoryRoot = resolve(root, "..", "..");
 const originRoot = resolve(repositoryRoot, "Evidence/origin/origin/origin");
-const referenceRoot = resolve(repositoryRoot, process.env.NEA_EXTERNAL_REFERENCE_ROOT ?? "Middleware/runtime-compat/evidence/player-runtime");
-const backendPath = resolve(repositoryRoot, "local-player/backend/box3-server.cjs");
+const backendPath = resolve(repositoryRoot, "Backend/local-player/backend/box3-server.cjs");
 
 const originFiles = await sourceFiles(originRoot, /\.js$/u);
-const referenceFiles = await sourceFiles(referenceRoot, /\.(?:ts|svelte)$/u);
 const originText = await joinedText(originFiles);
-const referenceText = await joinedText(referenceFiles);
 const backendText = await readFile(backendPath, "utf8");
 const physics = await readJson("generated/player-physics-bundle-analysis.json");
 const networkBody = await readJson("generated/player-network-body-analysis.json");
@@ -23,7 +20,6 @@ const contactForce = await readJson("generated/contact-force-production-analysis
 
 const originContactBindingReferences = count(originText, /\bContactBinding\b/g);
 const originContactBindingDefinitions = count(originText, /(?:\bclass\s+ContactBinding\b|\b(?:const|let|var)\s+ContactBinding\b|\bContactBinding\s*=)/g);
-const externalReferenceShapeWrites = fieldWrites(referenceText);
 const backendShapeWrites = fieldWrites(backendText);
 const backendPostureShapeWrites = postureAdjacentWrites(backendText);
 const playRoutes = profile.serviceWorkerCache.routeFamilies.filter(route => route.routeFamily === "/play/[id]");
@@ -34,10 +30,9 @@ const coverage = {
   generatedAt: new Date().toISOString(),
   indexedSourceSets: [
     sourceSet("origin-server-runtime", originRoot, originFiles),
-    sourceSet("external-reference-runtime-adapters", referenceRoot, referenceFiles),
     {
       id: "local-player-backend",
-      path: "local-player/backend/box3-server.cjs",
+      path: relative(repositoryRoot, backendPath).replaceAll("\\", "/"),
       files: 1,
       bytes: Buffer.byteLength(backendText),
       sha256: sha256(backendText),
@@ -57,7 +52,6 @@ const coverage = {
   },
   postureShapeProducer: {
     clientMotorShapeWrites: physics.posture.clientMotorShapeWriteCount,
-    externalReferenceShapeWrites,
     backendShapeWrites,
     backendPostureAdjacentShapeWrites: backendPostureShapeWrites,
     legacyPlayerShapeWrites: legacy.legacyPublicProducer.playerBodyWrites,
