@@ -71,17 +71,17 @@ test("sends the recovered method, headers and body options", async () => {
     request.on("data", chunk => chunks.push(chunk));
     request.on("end", () => {
       response.writeHead(200, "OK");
-      response.end(JSON.stringify({ method: request.method, auth: request.headers.authorization, echo: Buffer.concat(chunks).toString() }));
+      response.end(JSON.stringify({ method: request.method, auth: request.headers["x-demo-auth"], echo: Buffer.concat(chunks).toString() }));
     });
   }, async port => {
     const client = createAllowedHttpClient(port);
     const response = await client.fetch(`http://127.0.0.1:${port}/echo`, {
       method: "POST",
-      headers: { authorization: "Bearer demo" },
+      headers: { "x-demo-auth": "demo-value" },
       body: "payload",
     });
     const result = await response.json();
-    assert.deepEqual(result, { method: "POST", auth: "Bearer demo", echo: "payload" });
+    assert.deepEqual(result, { method: "POST", auth: "demo-value", echo: "payload" });
   });
 });
 
