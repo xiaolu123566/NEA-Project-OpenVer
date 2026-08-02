@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-player-adapter-map",
   "version": 1,
-  "generatedAt": "2026-07-31T11:20:50.324Z",
+  "generatedAt": "2026-08-02T02:10:42.384Z",
   "contract": "nea-server-runtime/v1",
   "localObject": {
     "id": "server.object.RuntimePlayer",
@@ -4091,7 +4091,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "createGameEntityEvent",
           "confidence": "direct"
         }
@@ -4112,7 +4112,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "createGameRespawnEvent",
           "confidence": "direct"
         }
@@ -4133,7 +4133,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "createGameKeyBoardEvent",
           "confidence": "direct"
         }
@@ -4157,7 +4157,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "createGameDamageEvent",
           "confidence": "direct"
         }
@@ -4180,7 +4180,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "createGameDieEvent",
           "confidence": "direct"
         }

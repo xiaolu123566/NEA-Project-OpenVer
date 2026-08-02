@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const repositoryRoot = resolve(root, "..", "..");
-const bundlePath = "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js";
+const bundlePath = "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js";
 const bundle = await readFile(resolve(repositoryRoot, bundlePath), "utf8");
 const physics = await readJson("generated/player-physics-bundle-analysis.json");
 const captures = await readJson("generated/local-capture-inventory.json");

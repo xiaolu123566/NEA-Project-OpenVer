@@ -5,10 +5,10 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const repositoryRoot = resolve(root, "..", "..");
-const relativeBundlePath = "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js";
+const relativeBundlePath = "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js";
 const bundlePath = resolve(repositoryRoot, relativeBundlePath);
 const source = await readFile(bundlePath, "utf8");
-const relativeEngineBundlePath = "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js";
+const relativeEngineBundlePath = "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js";
 const engineSource = await readFile(resolve(repositoryRoot, relativeEngineBundlePath), "utf8");
 const docs = JSON.parse(await readFile(resolve(root, "generated", "docs-api-index.json"), "utf8"));
 const sha256 = createHash("sha256").update(source).digest("hex");

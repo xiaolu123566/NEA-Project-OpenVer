@@ -10,6 +10,6 @@ export const entityBoundsApiConformance = Object.freeze({
     "origin/origin/origin/api/GameEntity.js",
     "origin/origin/origin/ScriptZoneWrapper.js",
     "Frontend/demo-map/src/runtime/script-runtime.mjs",
-    "local-player/backend/box3-server.cjs",
+    "Backend/local-player/backend/box3-server.cjs",
   ]),
 });

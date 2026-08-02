@@ -6,10 +6,10 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const repositoryRoot = resolve(root, "..", "..");
 const docs = await readJson("generated/docs-api-index.json");
 const origin = await readJson("generated/origin-server-api.json");
-const playerTypePath = "dao3-docs-mirror/markdown/api/GameEntity/isPlayer.md";
+const playerTypePath = "Evidence/dao3-docs-mirror/markdown/api/GameEntity/isPlayer.md";
 const syncPath = "origin/origin/origin/sync/ScriptEntitySync.js";
 const playerTypeSource = await readFile(resolve(repositoryRoot, playerTypePath), "utf8");
-const syncSource = await readFile(resolve(repositoryRoot, syncPath), "utf8");
+const syncSource = await readFile(resolve(repositoryRoot, "Evidence", syncPath), "utf8");
 
 for (const marker of ["declare type GamePlayerEntity = GameEntity & {", "player: GamePlayerEntity;", "isPlayer: true;"]) {
   if (!playerTypeSource.includes(marker)) throw new Error(`Player entity composition evidence missing: ${marker}`);

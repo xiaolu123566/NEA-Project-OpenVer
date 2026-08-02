@@ -20,9 +20,9 @@
     ]
   },
   "catalog": {
-    "source": "local-player/archive/block/QmW2E9E8ipYUifsCfkMj5SULYMYbFQvP6BQxo52atXw7Zj",
-    "provenance": "local-player/archive/world-bedwars.json:6",
-    "decoder": "local-player/backend/box3-server.cjs:13900",
+    "source": "Backend/local-player/archive/block/QmW2E9E8ipYUifsCfkMj5SULYMYbFQvP6BQxo52atXw7Zj",
+    "provenance": "Backend/local-player/archive/world-bedwars.json:6",
+    "decoder": "Backend/local-player/backend/box3-server.cjs:13900",
     "entries": 384,
     "notes": "The preserved BlockInfo asset is the only accepted name/id catalog for this phase."
   },

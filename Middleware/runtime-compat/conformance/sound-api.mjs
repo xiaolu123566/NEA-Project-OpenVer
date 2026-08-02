@@ -26,6 +26,6 @@ export const soundApiConformance = Object.freeze({
     "origin/origin/origin/shell/ScriptShell.js",
     "origin/origin/origin/api/Sound.js",
     "Middleware/runtime-compat/abi/protocols.json",
-    "local-player/backend/box3-server.cjs",
+    "Backend/local-player/backend/box3-server.cjs",
   ]),
 });

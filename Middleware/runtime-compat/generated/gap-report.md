@@ -1,11 +1,11 @@
 # Runtime Compatibility Gap Report
 
-Generated: 2026-08-01T15:56:56.477Z
+Generated: 2026-08-02T02:19:31.924Z
 
 ## Summary
 
 - Documentation declarations: 599
-- Current contract entries: 649
+- Current contract entries: 639
 - Recovered compatible entries: 728
 - Identifier/canonical matches: 392
 - Documented declarations still missing: 207

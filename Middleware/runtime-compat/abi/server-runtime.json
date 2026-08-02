@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-abi",
   "version": 1,
-  "generatedAt": "2026-08-01T01:06:46.436Z",
+  "generatedAt": "2026-08-02T02:20:17.285Z",
   "side": "server",
   "entries": [
     {
@@ -29,7 +29,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "AuthoritativeGameRuntime",
           "confidence": "direct"
         }
@@ -899,7 +899,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -943,7 +943,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -987,7 +987,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -1031,7 +1031,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -1075,7 +1075,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -1119,7 +1119,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -1163,7 +1163,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -1207,7 +1207,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -33804,7 +33804,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -35609,7 +35609,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -36402,7 +36402,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "ScriptRuntime.load",
           "confidence": "direct"
         }
@@ -45258,7 +45258,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -45305,7 +45305,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -45352,7 +45352,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -45399,7 +45399,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },

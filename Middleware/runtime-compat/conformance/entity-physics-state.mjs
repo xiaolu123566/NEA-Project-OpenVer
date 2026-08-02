@@ -8,6 +8,6 @@ export const entityPhysicsStateContract = Object.freeze({
     "dao3-docs-mirror/markdown/api/GameEntity/physics.md",
     "origin/origin/origin/api/GameEntity.js",
     "Frontend/demo-map/src/runtime/script-runtime.mjs",
-    "local-player/backend/box3-server.cjs",
+    "Backend/local-player/backend/box3-server.cjs",
   ]),
 });

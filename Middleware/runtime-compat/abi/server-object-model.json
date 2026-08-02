@@ -1,7 +1,7 @@
 {
   "format": "nea-server-object-model",
   "version": 1,
-  "generatedAt": "2026-07-31T09:27:01.910Z",
+  "generatedAt": "2026-08-02T01:49:49.284Z",
   "entities": {
     "GameEntity": {
       "documentedOwner": "GameEntity",
@@ -70,7 +70,7 @@
     "evidence": [
       {
         "type": "docs",
-        "path": "dao3-docs-mirror/markdown/api/GameEntity/isPlayer.md",
+        "path": "Evidence/dao3-docs-mirror/markdown/api/GameEntity/isPlayer.md",
         "symbol": "declare type GamePlayerEntity = GameEntity & { player: GamePlayerEntity; isPlayer: true }",
         "confidence": "direct"
       },

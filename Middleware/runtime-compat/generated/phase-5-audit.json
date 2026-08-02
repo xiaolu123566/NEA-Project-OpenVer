@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-compatibility-phase-audit",
   "version": 1,
-  "generatedAt": "2026-08-01T15:56:56.379Z",
+  "generatedAt": "2026-08-02T02:19:24.964Z",
   "phase": 5,
   "overallStatus": "complete",
   "requirements": [
@@ -420,8 +420,8 @@
           "finding": {
             "format": "nea-project-capability-manifest",
             "version": 14,
-            "producer": "demo-map/src/capability-manifest.mjs",
-            "launchGate": "demo-map/src/capability-launch-gate.mjs",
+            "producer": "Frontend/demo-map/src/capability-manifest.mjs",
+            "launchGate": "Frontend/demo-map/src/capability-launch-gate.mjs",
             "states": [
               "ready",
               "partial",
@@ -490,13 +490,13 @@
               "player-navigation"
             ],
             "evidence": [
-              "demo-map/src/capability-manifest.mjs",
-              "demo-map/src/capability-launch-gate.mjs",
-              "demo-map/src/capability-input-digest.mjs",
-              "demo-map/src/capability-input-normalize.mjs",
-              "demo-map/src/lifecycle-event-refinement.mjs",
-              "runtime-compat/conformance/player-lifecycle-project-refinement.mjs",
-              "demo-map/src/server.mjs"
+              "Frontend/demo-map/src/capability-manifest.mjs",
+              "Frontend/demo-map/src/capability-launch-gate.mjs",
+              "Frontend/demo-map/src/capability-input-digest.mjs",
+              "Frontend/demo-map/src/capability-input-normalize.mjs",
+              "Frontend/demo-map/src/lifecycle-event-refinement.mjs",
+              "Middleware/runtime-compat/conformance/player-lifecycle-project-refinement.mjs",
+              "Frontend/demo-map/src/server.mjs"
             ]
           }
         },

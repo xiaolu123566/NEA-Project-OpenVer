@@ -3,8 +3,8 @@ export const projectBootstrapIntegrityContract = Object.freeze({
   compatibilityCheck: "When raw verification fails, only CRLF-to-LF normalization may be retried, and the normalized byte length and SHA-256 must match the same manifest.",
   rejectedChanges: Object.freeze(["JSON value changes", "key changes", "whitespace changes other than CRLF line endings", "manifest hash edits"]),
   evidence: Object.freeze([
-    "local-player/archive/project/bedwars/bootstrap/manifest.json",
-    "local-player/backend/box3-server.cjs",
-    "local-player/tools/backend-compat.patch",
+    "Backend/local-player/archive/project/bedwars/bootstrap/manifest.json",
+    "Backend/local-player/backend/box3-server.cjs",
+    "Backend/local-player/tools/backend-compat.patch",
   ]),
 });

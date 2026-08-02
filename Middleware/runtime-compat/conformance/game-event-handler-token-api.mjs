@@ -11,6 +11,6 @@ export const gameEventHandlerTokenApiConformance = Object.freeze({
     "origin/origin/origin/api/GameEventHandlerToken.js",
     "origin/origin/origin/ScriptDispatcher.js",
     "Frontend/demo-map/src/runtime/event-signal.mjs",
-    "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+    "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
   ]),
 });

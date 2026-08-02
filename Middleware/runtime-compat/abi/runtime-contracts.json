@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-architecture-contract",
   "version": 1,
-  "generatedAt": "2026-07-31T09:27:02.588Z",
+  "generatedAt": "2026-08-02T01:49:48.986Z",
   "apiVersion": "0.1.0",
   "compatibilityLevel": "experimental",
   "layers": [
@@ -13,8 +13,8 @@
         "dao3-project/v1"
       ],
       "evidence": [
-        "demo-map/project/nea.map.json",
-        "demo-map/src/import-project.mjs"
+        "Frontend/demo-map/project/nea.map.json",
+        "Frontend/demo-map/src/import-project.mjs"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "dao3-client-runtime/v1"
       ],
       "evidence": [
-        "runtime-compat/generated/player-client-script-runtime-analysis.json"
+        "Middleware/runtime-compat/generated/player-client-script-runtime-analysis.json"
       ]
     },
     {
@@ -36,11 +36,11 @@
         "nea-server-runtime/v1"
       ],
       "evidence": [
-        "demo-map/src/runtime/script-runtime.mjs",
-        "runtime-compat/generated/local-server-runtime-analysis.json",
-        "runtime-compat/abi/server-object-model.json",
-        "runtime-compat/abi/runtime-entity-adapter-map.json",
-        "runtime-compat/abi/runtime-player-adapter-map.json"
+        "Frontend/demo-map/src/runtime/script-runtime.mjs",
+        "Middleware/runtime-compat/generated/local-server-runtime-analysis.json",
+        "Middleware/runtime-compat/abi/server-object-model.json",
+        "Middleware/runtime-compat/abi/runtime-entity-adapter-map.json",
+        "Middleware/runtime-compat/abi/runtime-player-adapter-map.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "nea-protocol-abi/v1"
       ],
       "evidence": [
-        "runtime-compat/abi/protocols.json"
+        "Middleware/runtime-compat/abi/protocols.json"
       ]
     },
     {
@@ -63,8 +63,8 @@
         "nea-authoritative-runtime/v1"
       ],
       "evidence": [
-        "local-player/backend/box3-server.cjs",
-        "runtime-compat/generated/player-network-body-analysis.json"
+        "Backend/local-player/backend/box3-server.cjs",
+        "Middleware/runtime-compat/generated/player-network-body-analysis.json"
       ]
     }
   ],
@@ -319,21 +319,35 @@
           "entries": [
             "server.RuntimePlayer.applyImpulse",
             "server.RuntimePlayer.color",
+            "server.RuntimePlayer.crouchAcceleration",
+            "server.RuntimePlayer.crouchSpeed",
             "server.RuntimePlayer.damage",
+            "server.RuntimePlayer.doubleJumpPower",
             "server.RuntimePlayer.enableAction0",
             "server.RuntimePlayer.enableAction1",
             "server.RuntimePlayer.enableCrouch",
             "server.RuntimePlayer.enableDamage",
             "server.RuntimePlayer.enableDoubleJump",
             "server.RuntimePlayer.enableJump",
+            "server.RuntimePlayer.flyAcceleration",
+            "server.RuntimePlayer.flySpeed",
             "server.RuntimePlayer.forceRespawn",
             "server.RuntimePlayer.hp",
+            "server.RuntimePlayer.jumpAccelerationFactor",
+            "server.RuntimePlayer.jumpPower",
+            "server.RuntimePlayer.jumpSpeedFactor",
             "server.RuntimePlayer.maxHp",
             "server.RuntimePlayer.name",
             "server.RuntimePlayer.position",
+            "server.RuntimePlayer.runAcceleration",
+            "server.RuntimePlayer.runSpeed",
             "server.RuntimePlayer.showHealthBar",
             "server.RuntimePlayer.spawnPoint",
-            "server.RuntimePlayer.velocity"
+            "server.RuntimePlayer.swimAcceleration",
+            "server.RuntimePlayer.swimSpeed",
+            "server.RuntimePlayer.velocity",
+            "server.RuntimePlayer.walkAcceleration",
+            "server.RuntimePlayer.walkSpeed"
           ]
         },
         {
@@ -725,20 +739,20 @@
     }
   ],
   "compatibilityMatrix": {
-    "path": "runtime-compat/abi/compatibility-matrix.json",
+    "path": "Middleware/runtime-compat/abi/compatibility-matrix.json",
     "declarations": 599,
-    "executable": 378,
+    "executable": 392,
     "byStatus": {
       "native": 125,
       "compatible": 131,
-      "partial": 122,
+      "partial": 136,
       "recovered-only": 93,
       "unavailable": 1,
-      "declared-only": 127
+      "declared-only": 113
     }
   },
   "scriptRuntimes": {
-    "boundaries": "runtime-compat/abi/script-runtime-boundaries.json",
+    "boundaries": "Middleware/runtime-compat/abi/script-runtime-boundaries.json",
     "invariant": "Client Script Runtime and Server Script Runtime are separate execution realms connected only through declared transport and authoritative state flows.",
     "runtimes": [
       {
@@ -757,25 +771,25 @@
   },
   "objectModels": {
     "server": {
-      "canonical": "runtime-compat/abi/server-object-model.json",
+      "canonical": "Middleware/runtime-compat/abi/server-object-model.json",
       "playerRepresentation": "intersection-and-component",
       "classicalPlayerInheritance": false,
       "localAdapters": [
         {
           "object": "server.object.RuntimeEntity",
-          "map": "runtime-compat/abi/runtime-entity-adapter-map.json",
+          "map": "Middleware/runtime-compat/abi/runtime-entity-adapter-map.json",
           "status": "extension"
         },
         {
           "object": "server.object.RuntimePlayer",
-          "map": "runtime-compat/abi/runtime-player-adapter-map.json",
+          "map": "Middleware/runtime-compat/abi/runtime-player-adapter-map.json",
           "status": "extension"
         }
       ]
     }
   },
   "sharedValues": {
-    "catalog": "runtime-compat/abi/shared-runtime.json",
+    "catalog": "Middleware/runtime-compat/abi/shared-runtime.json",
     "provider": "local-shared-compatibility-runtime",
     "capability": "shared.math",
     "capabilities": [
@@ -797,7 +811,7 @@
     "partialGameEventHandlerTokenEntries": 0
   },
   "contactEvents": {
-    "model": "runtime-compat/abi/contact-event-model.json",
+    "model": "Middleware/runtime-compat/abi/contact-event-model.json",
     "canonicalEvents": [
       {
         "id": "GameEntityContactEvent",
@@ -829,8 +843,8 @@
   "projectCapabilityManifest": {
     "format": "nea-project-capability-manifest",
     "version": 14,
-    "producer": "demo-map/src/capability-manifest.mjs",
-    "launchGate": "demo-map/src/capability-launch-gate.mjs",
+    "producer": "Frontend/demo-map/src/capability-manifest.mjs",
+    "launchGate": "Frontend/demo-map/src/capability-launch-gate.mjs",
     "states": [
       "ready",
       "partial",
@@ -899,13 +913,13 @@
       "player-navigation"
     ],
     "evidence": [
-      "demo-map/src/capability-manifest.mjs",
-      "demo-map/src/capability-launch-gate.mjs",
-      "demo-map/src/capability-input-digest.mjs",
-      "demo-map/src/capability-input-normalize.mjs",
-      "demo-map/src/lifecycle-event-refinement.mjs",
-      "runtime-compat/conformance/player-lifecycle-project-refinement.mjs",
-      "demo-map/src/server.mjs"
+      "Frontend/demo-map/src/capability-manifest.mjs",
+      "Frontend/demo-map/src/capability-launch-gate.mjs",
+      "Frontend/demo-map/src/capability-input-digest.mjs",
+      "Frontend/demo-map/src/capability-input-normalize.mjs",
+      "Frontend/demo-map/src/lifecycle-event-refinement.mjs",
+      "Middleware/runtime-compat/conformance/player-lifecycle-project-refinement.mjs",
+      "Frontend/demo-map/src/server.mjs"
     ]
   },
   "transport": {
@@ -933,7 +947,7 @@
     "bodyProfileRequired": true,
     "bodyProfileSizeStatus": "confirmed",
     "publicStateUsesExplicitHalfExtents": true,
-    "postureAbi": "runtime-compat/abi/physics-player-posture.json",
+    "postureAbi": "Middleware/runtime-compat/abi/physics-player-posture.json",
     "postureShapeStatus": {
       "standing": "confirmed",
       "crouching": "evidence-deferred",
@@ -979,19 +993,19 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.gui",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "GuiSessions / sendGuiCommandPacket / createGuiHandlers",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/backend-gui-transport.test.mjs",
+          "path": "Middleware/runtime-compat/test/backend-gui-transport.test.mjs",
           "symbol": "Player GUI transport conformance",
           "confidence": "direct"
         }
@@ -1006,19 +1020,19 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.game-chat.clientReceives.log",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "GameChatSessions / sendChatMessage",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/backend-chat-transport.test.mjs",
+          "path": "Middleware/runtime-compat/test/backend-chat-transport.test.mjs",
           "symbol": "game-chat outbound packet conformance",
           "confidence": "direct"
         }
@@ -1033,31 +1047,31 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.sound",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/control-client.mjs",
+          "path": "Frontend/demo-map/src/control-client.mjs",
           "symbol": "sendSoundCommandToBackend",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "ScriptRuntime sound binding",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "ProjectBootstrapSessions.sendSoundCommand / sound control route",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/sound-api-conformance.test.mjs",
+          "path": "Middleware/runtime-compat/test/sound-api-conformance.test.mjs",
           "symbol": "Sound API normalization and controls",
           "confidence": "direct"
         }
@@ -1072,7 +1086,7 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.game-net.serverReceives.input",
           "confidence": "direct"
         },
@@ -1084,31 +1098,31 @@
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "createGameNetHandlers.input / game-net:input",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/backend-events.mjs",
+          "path": "Frontend/demo-map/src/backend-events.mjs",
           "symbol": "parseBackendEvent game-net:input",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "input-events orchestration",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/backend-events.test.mjs",
+          "path": "Frontend/demo-map/test/backend-events.test.mjs",
           "symbol": "game-net input log parser",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/runtime.test.mjs",
+          "path": "Frontend/demo-map/test/runtime.test.mjs",
           "symbol": "GameInputEvent and GameClickEvent reconstruction",
           "confidence": "direct"
         }
@@ -1123,13 +1137,13 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.entity-interact.serverReceives.interact / clientReceives.acknowledgeInteract",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "InteractProtocol target selection and {id,tick} send",
           "confidence": "direct"
         },
@@ -1141,31 +1155,31 @@
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "createEntityInteractHandlers / entity-interact structured ingress",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/backend-events.mjs",
+          "path": "Frontend/demo-map/src/backend-events.mjs",
           "symbol": "parseBackendEvent entity-interact",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "entity-interact orchestration",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/backend-events.test.mjs",
+          "path": "Frontend/demo-map/test/backend-events.test.mjs",
           "symbol": "entity-interact log parser",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/runtime.test.mjs",
+          "path": "Frontend/demo-map/test/runtime.test.mjs",
           "symbol": "GameInteractEvent mapped-target dispatch",
           "confidence": "direct"
         }
@@ -1180,37 +1194,37 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.game-net.PUBLIC.damage / scriptEvents.damage",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/control-client.mjs",
+          "path": "Frontend/demo-map/src/control-client.mjs",
           "symbol": "queueDamageStateToBackend",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "ScriptRuntime writeDamageState binding",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "damage-state control route / GameNetPublicSessions.updateDamage",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/backend-damage-transport.test.mjs",
+          "path": "Middleware/runtime-compat/test/backend-damage-transport.test.mjs",
           "symbol": "damage state and script event aggregation",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/runtime.test.mjs",
+          "path": "Frontend/demo-map/test/runtime.test.mjs",
           "symbol": "hurt death healing and respawn projection",
           "confidence": "direct"
         }
@@ -1225,31 +1239,31 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "validated mesh whitelist / ScriptRuntime entity projection bindings",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/control-client.mjs",
+          "path": "Frontend/demo-map/src/control-client.mjs",
           "symbol": "entity create/state/destroy control calls",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "resolveRuntimeMesh / createRuntimeEntity / queueRuntimeEntityState / destroyRuntimeEntity",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/runtime.test.mjs",
+          "path": "Frontend/demo-map/test/runtime.test.mjs",
           "symbol": "validated and unknown mesh runtime entity projection",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/backend-rebuild-persistence.test.mjs",
+          "path": "Middleware/runtime-compat/test/backend-rebuild-persistence.test.mjs",
           "symbol": "runtime entity projection persistence markers",
           "confidence": "direct"
         }
@@ -1264,37 +1278,37 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.dialog",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/control-client.mjs",
+          "path": "Frontend/demo-map/src/control-client.mjs",
           "symbol": "openDialogOnBackend / cancelDialogsOnBackend",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "ScriptRuntime dialog bindings",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "DialogSessions / dialog control routes",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/backend-dialog-transport.test.mjs",
+          "path": "Middleware/runtime-compat/test/backend-dialog-transport.test.mjs",
           "symbol": "Player dialog RPC conformance",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/control-client.test.mjs",
+          "path": "Frontend/demo-map/test/control-client.test.mjs",
           "symbol": "dialog control bridge conformance",
           "confidence": "direct"
         }
@@ -1309,49 +1323,49 @@
       "evidence": [
         {
           "type": "protocol-schema",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "player.game-net.serverReceives.join",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "game-net join / MuDB disconnect / SHA-256 session bridge label",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/backend-events.mjs",
+          "path": "Frontend/demo-map/src/backend-events.mjs",
           "symbol": "stable Player join/leave parser",
           "confidence": "direct"
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/server.mjs",
+          "path": "Frontend/demo-map/src/server.mjs",
           "symbol": "RuntimePlayer add/remove orchestration",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/backend-events.test.mjs",
+          "path": "Frontend/demo-map/test/backend-events.test.mjs",
           "symbol": "stable Player lifecycle event parser",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "demo-map/test/runtime.test.mjs",
+          "path": "Frontend/demo-map/test/runtime.test.mjs",
           "symbol": "RuntimePlayer join/leave event dispatch",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/player-lifecycle-project-refinement-conformance.test.mjs",
+          "path": "Middleware/runtime-compat/test/player-lifecycle-project-refinement-conformance.test.mjs",
           "symbol": "project lifecycle subscription refinement without global ABI promotion",
           "confidence": "direct"
         },
         {
           "type": "test",
-          "path": "runtime-compat/test/player-disconnect-destroy-order-conformance.test.mjs",
+          "path": "Middleware/runtime-compat/test/player-disconnect-destroy-order-conformance.test.mjs",
           "symbol": "disconnect destroy order and shared GameEntityEvent payload",
           "confidence": "direct"
         }
@@ -1376,20 +1390,20 @@
   ],
   "demo": {
     "project": {
-      "path": "demo-map/project/nea.map.json",
+      "path": "Frontend/demo-map/project/nea.map.json",
       "bytes": 1136,
       "sha256": "1726d35b3d40fb4d9d5425d0167fdacc868ada96e9724d128c02f6804ba87a2e"
     },
     "scripts": {
       "client": {
-        "path": "demo-map/project/scripts/client.js",
-        "bytes": 2133,
-        "sha256": "389307e0bb666e33860e5103cec991bceb3c92bb41c11f23620188e416774056"
+        "path": "Frontend/demo-map/project/scripts/client.js",
+        "bytes": 6432,
+        "sha256": "93122d476e23299de59449e626ef3eb5061c9b889e2c76567d12239b4a930aaa"
       },
       "server": {
-        "path": "demo-map/project/scripts/server.js",
-        "bytes": 2654,
-        "sha256": "4b5bc70d59cd275dfc39743d4722ef08bf91c6b3818830ca0d014ec0b896885e"
+        "path": "Frontend/demo-map/project/scripts/server.js",
+        "bytes": 4741,
+        "sha256": "530a3b027910a5d95ba5f362639927211cf419ab5a48db2d312ffb359ee87f66"
       }
     },
     "bindings": [
@@ -1758,11 +1772,14 @@
           "server.RuntimePlayer.bounds",
           "server.RuntimePlayer.cancelDialogs",
           "server.RuntimePlayer.color",
+          "server.RuntimePlayer.crouchAcceleration",
           "server.RuntimePlayer.crouchButton",
+          "server.RuntimePlayer.crouchSpeed",
           "server.RuntimePlayer.damage",
           "server.RuntimePlayer.destroy",
           "server.RuntimePlayer.destroyed",
           "server.RuntimePlayer.dialog",
+          "server.RuntimePlayer.doubleJumpPower",
           "server.RuntimePlayer.enableAction0",
           "server.RuntimePlayer.enableAction1",
           "server.RuntimePlayer.enableCrouch",
@@ -1770,6 +1787,8 @@
           "server.RuntimePlayer.enableDoubleJump",
           "server.RuntimePlayer.enableJump",
           "server.RuntimePlayer.fluidContacts",
+          "server.RuntimePlayer.flyAcceleration",
+          "server.RuntimePlayer.flySpeed",
           "server.RuntimePlayer.forceRespawn",
           "server.RuntimePlayer.grounded",
           "server.RuntimePlayer.hasTag",
@@ -1778,7 +1797,10 @@
           "server.RuntimePlayer.hurt",
           "server.RuntimePlayer.id",
           "server.RuntimePlayer.isPlayer",
+          "server.RuntimePlayer.jumpAccelerationFactor",
           "server.RuntimePlayer.jumpButton",
+          "server.RuntimePlayer.jumpPower",
+          "server.RuntimePlayer.jumpSpeedFactor",
           "server.RuntimePlayer.maxHp",
           "server.RuntimePlayer.name",
           "server.RuntimePlayer.nextClick",
@@ -1807,13 +1829,19 @@
           "server.RuntimePlayer.onVoxelSeparate",
           "server.RuntimePlayer.position",
           "server.RuntimePlayer.removeTag",
+          "server.RuntimePlayer.runAcceleration",
+          "server.RuntimePlayer.runSpeed",
           "server.RuntimePlayer.sendMessage",
           "server.RuntimePlayer.showHealthBar",
           "server.RuntimePlayer.snapshot",
           "server.RuntimePlayer.sound",
           "server.RuntimePlayer.spawnPoint",
+          "server.RuntimePlayer.swimAcceleration",
+          "server.RuntimePlayer.swimSpeed",
           "server.RuntimePlayer.velocity",
+          "server.RuntimePlayer.walkAcceleration",
           "server.RuntimePlayer.walkButton",
+          "server.RuntimePlayer.walkSpeed",
           "server.RuntimePurchaseSuccessEvent.orderId",
           "server.RuntimePurchaseSuccessEvent.productId",
           "server.RuntimePurchaseSuccessEvent.tick",

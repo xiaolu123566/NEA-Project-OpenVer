@@ -1,10 +1,10 @@
 {
   "format": "nea-runtime-gap-report",
   "version": 1,
-  "generatedAt": "2026-08-01T15:56:56.477Z",
+  "generatedAt": "2026-08-02T02:19:31.924Z",
   "summary": {
     "documentedDeclarations": 599,
-    "currentContractEntries": 649,
+    "currentContractEntries": 639,
     "recoveredContractEntries": 728,
     "exactIdMatches": 392,
     "documentedMissing": 207,

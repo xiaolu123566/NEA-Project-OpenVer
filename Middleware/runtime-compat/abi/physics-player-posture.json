@@ -1,7 +1,7 @@
 {
   "format": "nea-physics-player-posture-abi",
   "version": 2,
-  "generatedAt": "2026-07-31T04:39:05.683Z",
+  "generatedAt": "2026-08-02T02:10:41.931Z",
   "stateEncoding": {
     "PlayerFlyState": {
       "shift": 0,
@@ -128,42 +128,42 @@
   "evidence": [
     {
       "type": "player-bundle",
-      "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+      "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
       "module": 70648,
       "sha256": "9f56cbb48d9ecf1f5357a9ee4d256a2bddc9ab819bf6bb106dcc3d046a9dff53",
       "finding": "Player state and capability bit assignments."
     },
     {
       "type": "player-bundle",
-      "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+      "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
       "module": 7166,
       "sha256": "0c304d49011a64be9cfc6966cbea39d3b152fe321025a9f1a630d9f7a5bb9205",
       "finding": "Standing dimensions and posture motor behavior; no shape writes."
     },
     {
       "type": "derived",
-      "path": "runtime-compat/generated/player-physics-bundle-analysis.json",
+      "path": "Middleware/runtime-compat/generated/player-physics-bundle-analysis.json",
       "finding": "Client motor shape write inventory."
     },
     {
       "type": "derived",
-      "path": "runtime-compat/generated/local-capture-inventory.json",
+      "path": "Middleware/runtime-compat/generated/local-capture-inventory.json",
       "finding": "No binary server-to-client PUBLIC frames are available."
     },
     {
       "type": "derived",
-      "path": "runtime-compat/generated/player-profile-network-inventory.json",
+      "path": "Middleware/runtime-compat/generated/player-profile-network-inventory.json",
       "finding": "Service Worker cache and browser state stores contain no persisted server-to-client MuDB PUBLIC frame."
     },
     {
       "type": "derived",
-      "path": "runtime-compat/generated/legacy-worktree-posture-inventory.json",
+      "path": "Middleware/runtime-compat/generated/legacy-worktree-posture-inventory.json",
       "finding": "The old worktree contains client-side posture consumers and a synthetic incomplete producer, but no authoritative posture delta."
     },
     {
       "type": "derived",
-      "path": "runtime-compat/generated/authoritative-runtime-evidence-coverage.json",
-      "finding": "Origin, Lokibox, backend, archived Player, browser profile and legacy worktree contain no indexed crouch/fly-conditioned authoritative shape producer."
+      "path": "Middleware/runtime-compat/generated/authoritative-runtime-evidence-coverage.json",
+      "finding": "Origin, external reference evidence, backend, archived Player, browser profile and legacy worktree contain no indexed crouch/fly-conditioned authoritative shape producer."
     }
   ]
 }

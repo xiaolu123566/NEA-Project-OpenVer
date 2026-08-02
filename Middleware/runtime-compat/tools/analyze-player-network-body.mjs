@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const repositoryRoot = resolve(root, "..", "..");
-const backendRelativePath = "local-player/backend/box3-server.cjs";
+const backendRelativePath = "Backend/local-player/backend/box3-server.cjs";
 const physicsRelativePath = "Frontend/demo-map/project/world/physics.json";
 const backendSource = await readFile(resolve(repositoryRoot, backendRelativePath), "utf8");
 const physicsSource = await readFile(resolve(repositoryRoot, physicsRelativePath), "utf8");

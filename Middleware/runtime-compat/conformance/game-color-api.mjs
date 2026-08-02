@@ -16,6 +16,6 @@ export const gameColorApiConformance = Object.freeze({
     "origin/origin/origin/api/GameRGBColor.js",
     "origin/origin/origin/api/GameRGBAColor.js",
     "Frontend/demo-map/src/runtime/colors.mjs",
-    "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+    "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
   ]),
 });

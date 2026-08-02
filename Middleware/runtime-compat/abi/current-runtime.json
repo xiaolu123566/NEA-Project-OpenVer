@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-abi",
   "version": 1,
-  "generatedAt": "2026-07-31T11:20:50.526Z",
+  "generatedAt": "2026-08-02T02:20:17.147Z",
   "entries": [
     {
       "id": "client.Audio.Audio",
@@ -42,13 +42,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -117,13 +117,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -195,13 +195,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -271,13 +271,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -331,13 +331,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -395,13 +395,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -455,13 +455,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -515,13 +515,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -575,13 +575,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 Audio wrapper",
           "confidence": "direct"
         }
@@ -658,7 +658,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -741,7 +741,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -801,7 +801,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -855,7 +855,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -909,7 +909,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -963,7 +963,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -1017,7 +1017,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -1071,7 +1071,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -1118,7 +1118,7 @@
       "evidence": [
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -1155,7 +1155,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -1213,7 +1213,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -1283,13 +1283,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -1355,13 +1355,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -1415,13 +1415,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -1498,13 +1498,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -1604,13 +1604,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -1710,13 +1710,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -1816,13 +1816,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -1922,13 +1922,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -2028,13 +2028,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -2134,13 +2134,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 53601 UI EventEmitter wrapper",
           "confidence": "direct"
         }
@@ -2216,7 +2216,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2275,7 +2275,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2333,7 +2333,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2385,7 +2385,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2437,7 +2437,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2489,7 +2489,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2541,7 +2541,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2593,7 +2593,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2659,7 +2659,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2723,7 +2723,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2776,7 +2776,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2830,7 +2830,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2888,7 +2888,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2946,7 +2946,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -2997,7 +2997,7 @@
       "evidence": [
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3034,7 +3034,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3092,7 +3092,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3146,13 +3146,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 MediaError wrapper",
           "confidence": "direct"
         }
@@ -3229,13 +3229,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 MediaError wrapper",
           "confidence": "direct"
         }
@@ -3315,13 +3315,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 MediaError wrapper",
           "confidence": "direct"
         }
@@ -3374,7 +3374,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3426,7 +3426,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3478,7 +3478,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3530,7 +3530,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3582,7 +3582,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3634,7 +3634,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3686,13 +3686,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -3744,7 +3744,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -3796,13 +3796,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -3854,13 +3854,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 UiScale wrapper",
           "confidence": "direct"
         }
@@ -3912,13 +3912,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -3970,13 +3970,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -4022,7 +4022,7 @@
       "evidence": [
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -4071,7 +4071,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -4149,7 +4149,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -4208,7 +4208,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/import-project.mjs",
+          "path": "Frontend/demo-map/src/import-project.mjs",
           "symbol": "publishClientScript.contract",
           "confidence": "direct"
         }
@@ -4233,13 +4233,13 @@
       "evidence": [
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 76459 game-net syncClientScriptModules",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -4265,7 +4265,7 @@
       "evidence": [
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -4294,7 +4294,7 @@
       "evidence": [
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         }
@@ -4327,13 +4327,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4387,13 +4387,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4447,13 +4447,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4507,13 +4507,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4567,13 +4567,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4627,13 +4627,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4687,13 +4687,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -4765,13 +4765,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21031 UiInput wrapper and input focus events",
           "confidence": "direct"
         }
@@ -4841,13 +4841,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21031 UiInput wrapper and input focus events",
           "confidence": "direct"
         }
@@ -4915,13 +4915,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21031 UiInput wrapper and input focus events",
           "confidence": "direct"
         }
@@ -4991,13 +4991,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21031 UiInput wrapper and input focus events",
           "confidence": "direct"
         }
@@ -5051,13 +5051,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21031 UiInput wrapper and input focus events",
           "confidence": "direct"
         }
@@ -5111,13 +5111,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21031 UiInput wrapper and input focus events",
           "confidence": "direct"
         }
@@ -5171,13 +5171,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5231,13 +5231,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5291,13 +5291,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5363,13 +5363,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5435,13 +5435,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5495,13 +5495,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5555,13 +5555,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5615,13 +5615,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5675,13 +5675,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5735,13 +5735,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5795,13 +5795,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5855,13 +5855,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5915,13 +5915,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -5975,13 +5975,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6035,13 +6035,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6095,13 +6095,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6155,13 +6155,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6215,13 +6215,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 UiScale wrapper",
           "confidence": "direct"
         }
@@ -6275,13 +6275,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 UiScale wrapper",
           "confidence": "direct"
         }
@@ -6335,13 +6335,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6395,13 +6395,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6455,13 +6455,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6515,13 +6515,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 2524 / 65549 / 592 UiNode inheritance wrappers",
           "confidence": "direct"
         }
@@ -6575,13 +6575,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6635,13 +6635,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6695,13 +6695,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6755,13 +6755,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6815,13 +6815,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6875,13 +6875,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6935,13 +6935,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -6995,13 +6995,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7055,13 +7055,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7115,13 +7115,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7175,13 +7175,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7235,13 +7235,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7295,13 +7295,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7355,13 +7355,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7415,13 +7415,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "modules 20162 / 9583 / 37672 / 84941 client UI wrappers",
           "confidence": "direct"
         }
@@ -7487,13 +7487,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7571,13 +7571,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7643,13 +7643,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7703,13 +7703,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7763,13 +7763,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7835,13 +7835,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7919,13 +7919,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -7991,13 +7991,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -8051,13 +8051,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -8111,13 +8111,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -8171,13 +8171,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -8231,13 +8231,13 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/474.c17d0cc8a4489c84.js",
           "symbol": "module 93474 ClientScript / SES global construction",
           "confidence": "direct"
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "module 21050 Coord2 / Vec2 / Vec3 wrappers",
           "confidence": "direct"
         }
@@ -8291,7 +8291,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/physics/player-body.mjs",
+          "path": "Frontend/demo-map/src/runtime/physics/player-body.mjs",
           "symbol": "requirePlayerBodyProfile",
           "confidence": "direct"
         }
@@ -8322,7 +8322,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "local-player/backend/box3-server.cjs",
+          "path": "Backend/local-player/backend/box3-server.cjs",
           "symbol": "AuthoritativeGameRuntime",
           "confidence": "direct"
         }
@@ -8360,7 +8360,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8404,7 +8404,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8448,7 +8448,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8492,7 +8492,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8536,7 +8536,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8580,7 +8580,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8624,7 +8624,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -8668,7 +8668,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -9875,7 +9875,7 @@
         },
         {
           "type": "historical-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameButtonType",
           "confidence": "direct"
         },
@@ -10833,7 +10833,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -11268,7 +11268,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/script-runtime.mjs",
+          "path": "Frontend/demo-map/src/runtime/script-runtime.mjs",
           "symbol": "ScriptRuntime.load",
           "confidence": "direct"
         }
@@ -20124,7 +20124,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -20171,7 +20171,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -20218,7 +20218,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -20265,7 +20265,7 @@
         },
         {
           "type": "transport",
-          "path": "local-player/reports/runtime-abi.md",
+          "path": "Backend/local-player/reports/runtime-abi.md",
           "symbol": "market-script",
           "confidence": "direct"
         },
@@ -24141,7 +24141,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24225,7 +24225,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24309,7 +24309,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24388,7 +24388,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24478,7 +24478,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24561,7 +24561,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24633,7 +24633,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24717,7 +24717,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24789,7 +24789,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -24916,7 +24916,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -25043,7 +25043,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -25103,7 +25103,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/event-signal.mjs",
+          "path": "Frontend/demo-map/src/runtime/event-signal.mjs",
           "symbol": "GameEventHandlerToken / EventSignal.on",
           "confidence": "direct"
         },
@@ -25121,7 +25121,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameEventHandlerToken",
           "confidence": "direct"
         }
@@ -25175,7 +25175,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/event-signal.mjs",
+          "path": "Frontend/demo-map/src/runtime/event-signal.mjs",
           "symbol": "GameEventHandlerToken / EventSignal.on",
           "confidence": "direct"
         },
@@ -25193,7 +25193,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameEventHandlerToken",
           "confidence": "direct"
         }
@@ -25247,7 +25247,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/event-signal.mjs",
+          "path": "Frontend/demo-map/src/runtime/event-signal.mjs",
           "symbol": "GameEventHandlerToken / EventSignal.on",
           "confidence": "direct"
         },
@@ -25265,7 +25265,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameEventHandlerToken",
           "confidence": "direct"
         }
@@ -25331,7 +25331,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25415,7 +25415,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25487,7 +25487,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25559,7 +25559,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25643,7 +25643,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25727,7 +25727,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25811,7 +25811,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -25823,7 +25823,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -25912,7 +25912,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26029,7 +26029,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26168,7 +26168,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26285,7 +26285,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26297,7 +26297,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -26363,7 +26363,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26375,7 +26375,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -26429,7 +26429,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26501,7 +26501,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26573,7 +26573,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26645,7 +26645,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26729,7 +26729,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26813,7 +26813,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26908,7 +26908,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -26920,7 +26920,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -27042,7 +27042,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27170,7 +27170,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27182,7 +27182,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -27259,7 +27259,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27331,7 +27331,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27403,7 +27403,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27463,7 +27463,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27523,7 +27523,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27583,7 +27583,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27643,7 +27643,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -27703,7 +27703,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -27775,7 +27775,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -27859,7 +27859,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -27931,7 +27931,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28003,7 +28003,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28075,7 +28075,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28147,7 +28147,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28231,7 +28231,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28315,7 +28315,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28399,7 +28399,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28411,7 +28411,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -28477,7 +28477,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28582,7 +28582,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28710,7 +28710,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28805,7 +28805,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28889,7 +28889,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -28961,7 +28961,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -29066,7 +29066,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -29183,7 +29183,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -29267,7 +29267,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -29339,7 +29339,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -29411,7 +29411,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29495,7 +29495,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29567,7 +29567,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29627,7 +29627,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29699,7 +29699,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29783,7 +29783,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29867,7 +29867,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29951,7 +29951,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -29963,7 +29963,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -30029,7 +30029,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30123,7 +30123,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30240,7 +30240,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30335,7 +30335,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30419,7 +30419,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30491,7 +30491,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30551,7 +30551,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30645,7 +30645,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30751,7 +30751,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30835,7 +30835,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30907,7 +30907,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -30967,7 +30967,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -31039,7 +31039,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31123,7 +31123,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31207,7 +31207,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31279,7 +31279,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31351,7 +31351,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31435,7 +31435,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31519,7 +31519,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31603,7 +31603,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31687,7 +31687,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31771,7 +31771,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31855,7 +31855,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -31867,7 +31867,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -31945,7 +31945,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32051,7 +32051,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32179,7 +32179,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32296,7 +32296,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32379,7 +32379,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32451,7 +32451,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32535,7 +32535,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32619,7 +32619,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32703,7 +32703,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32775,7 +32775,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32847,7 +32847,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -32953,7 +32953,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33047,7 +33047,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33119,7 +33119,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33203,7 +33203,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33275,7 +33275,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33347,7 +33347,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33419,7 +33419,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33479,7 +33479,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33539,7 +33539,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -33591,7 +33591,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -33623,7 +33623,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -33654,7 +33654,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -33680,7 +33680,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -33706,7 +33706,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "runtime-compat/abi/protocols.json",
+          "path": "Middleware/runtime-compat/abi/protocols.json",
           "symbol": "protocols",
           "confidence": "direct"
         }

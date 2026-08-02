@@ -9,7 +9,7 @@ const siblingRoot = resolve(repositoryRoot, "..");
 const captureRoot = resolve(process.env.NEA_REFERENCE_CAPTURE_ROOT ?? resolve(siblingRoot, "runtime-compat", "evidence", "captures"));
 const packetAnalyzerPath = resolve(process.env.NEA_REFERENCE_ANALYZER_PATH ?? resolve(siblingRoot, "runtime-compat", "evidence", "packet-analysis.ts"));
 const outputPath = resolve(root, "generated", "posture-delta-corpus-inventory.json");
-const runtimeAbi = await readJson(resolve(repositoryRoot, "local-player", "reports", "runtime-abi.json"));
+const runtimeAbi = await readJson(resolve(repositoryRoot, "Backend", "local-player", "reports", "runtime-abi.json"));
 const profile = await readJson(resolve(root, "generated", "player-profile-network-inventory.json"));
 const legacy = await readJson(resolve(root, "generated", "legacy-worktree-posture-inventory.json"));
 const legacyRoot = await locateLegacyRoot();
@@ -176,7 +176,7 @@ async function inventoryBootstrap() {
     const value = JSON.parse(bytes.toString("utf8"));
     const messages = Array.isArray(value.sourceMessages) ? value.sourceMessages : [];
     return {
-      path: "local-player/archive/project/bedwars/bootstrap/bootstrap.json",
+      path: "Backend/local-player/archive/project/bedwars/bootstrap/bootstrap.json",
       available: true,
       bytes: bytes.length,
       sha256: sha256(bytes),
@@ -185,7 +185,7 @@ async function inventoryBootstrap() {
       classification: "decoded-initialization-message-index",
     };
   } catch (error) {
-    if (error?.code === "ENOENT") return { path: "local-player/archive/project/bedwars/bootstrap/bootstrap.json", available: false, sourceMessages: [], rawPayloadFields: [] };
+    if (error?.code === "ENOENT") return { path: "Backend/local-player/archive/project/bedwars/bootstrap/bootstrap.json", available: false, sourceMessages: [], rawPayloadFields: [] };
     throw error;
   }
 }

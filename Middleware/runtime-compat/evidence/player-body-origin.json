@@ -23,7 +23,7 @@
     },
     {
       "type": "player-bundle",
-      "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+      "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
       "module": 62864,
       "sourceNeedle": "P.minX=Math.min(l,I)-d,P.minY=Math.min(h,E)-p,P.minZ=Math.min(f,C)-g",
       "confidence": "direct"

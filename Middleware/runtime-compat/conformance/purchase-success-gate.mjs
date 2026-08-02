@@ -4,7 +4,7 @@ export const purchaseSuccessGateContract = Object.freeze({
     "origin/origin/origin/shell/MarketScriptShell.js",
     "origin/origin/origin/sync/ScriptWorldSync.js",
     "origin/server-protocols.json",
-    "local-player/backend/box3-server.cjs",
+    "Backend/local-player/backend/box3-server.cjs",
   ]),
   eventFields: Object.freeze(["tick", "userId", "productId", "orderId"]),
   historicalTickConsumer: Object.freeze({

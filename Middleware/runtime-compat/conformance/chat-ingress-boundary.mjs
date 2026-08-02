@@ -12,7 +12,7 @@ export const chatIngressBoundaryContract = Object.freeze({
     clientToServer: Object.freeze(["noticeMessage"]),
   }),
   recoveredBrowserSender: Object.freeze({
-    path: "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+    path: "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
     method: "sendGlobalNotice",
     message: "noticeMessage",
     fields: Object.freeze(["title", "detail"]),

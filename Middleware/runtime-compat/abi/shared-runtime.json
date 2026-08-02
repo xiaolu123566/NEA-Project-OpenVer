@@ -1,7 +1,7 @@
 {
   "format": "nea-runtime-abi",
   "version": 1,
-  "generatedAt": "2026-07-31T11:20:50.788Z",
+  "generatedAt": "2026-08-02T02:20:17.299Z",
   "side": "shared",
   "entries": [
     {
@@ -585,7 +585,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -669,7 +669,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -753,7 +753,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -832,7 +832,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -922,7 +922,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1005,7 +1005,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1077,7 +1077,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1161,7 +1161,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1233,7 +1233,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1360,7 +1360,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1487,7 +1487,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/game-zones.mjs",
+          "path": "Frontend/demo-map/src/runtime/game-zones.mjs",
           "symbol": "GameBounds3",
           "confidence": "direct"
         },
@@ -1547,7 +1547,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/event-signal.mjs",
+          "path": "Frontend/demo-map/src/runtime/event-signal.mjs",
           "symbol": "GameEventHandlerToken / EventSignal.on",
           "confidence": "direct"
         },
@@ -1565,7 +1565,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameEventHandlerToken",
           "confidence": "direct"
         }
@@ -1619,7 +1619,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/event-signal.mjs",
+          "path": "Frontend/demo-map/src/runtime/event-signal.mjs",
           "symbol": "GameEventHandlerToken / EventSignal.on",
           "confidence": "direct"
         },
@@ -1637,7 +1637,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameEventHandlerToken",
           "confidence": "direct"
         }
@@ -1691,7 +1691,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/event-signal.mjs",
+          "path": "Frontend/demo-map/src/runtime/event-signal.mjs",
           "symbol": "GameEventHandlerToken / EventSignal.on",
           "confidence": "direct"
         },
@@ -1709,7 +1709,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js",
           "symbol": "GameEventHandlerToken",
           "confidence": "direct"
         }
@@ -1775,7 +1775,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -1859,7 +1859,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -1931,7 +1931,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2003,7 +2003,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2087,7 +2087,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2171,7 +2171,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2255,7 +2255,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2267,7 +2267,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -2356,7 +2356,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2473,7 +2473,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2612,7 +2612,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2729,7 +2729,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2741,7 +2741,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -2807,7 +2807,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2819,7 +2819,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -2873,7 +2873,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -2945,7 +2945,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3017,7 +3017,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3089,7 +3089,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3173,7 +3173,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3257,7 +3257,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3352,7 +3352,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3364,7 +3364,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -3486,7 +3486,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3614,7 +3614,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3626,7 +3626,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -3703,7 +3703,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3775,7 +3775,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3847,7 +3847,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3907,7 +3907,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -3967,7 +3967,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -4027,7 +4027,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -4087,7 +4087,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/quaternion.mjs",
+          "path": "Frontend/demo-map/src/runtime/quaternion.mjs",
           "symbol": "GameQuaternion",
           "confidence": "direct"
         },
@@ -4147,7 +4147,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4219,7 +4219,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4303,7 +4303,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4375,7 +4375,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4447,7 +4447,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4519,7 +4519,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4591,7 +4591,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4675,7 +4675,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4759,7 +4759,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4843,7 +4843,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -4855,7 +4855,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -4921,7 +4921,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5026,7 +5026,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5154,7 +5154,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5249,7 +5249,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5333,7 +5333,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5405,7 +5405,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5510,7 +5510,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5627,7 +5627,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5711,7 +5711,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5783,7 +5783,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBAColor",
           "confidence": "direct"
         },
@@ -5855,7 +5855,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -5939,7 +5939,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6011,7 +6011,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6071,7 +6071,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6143,7 +6143,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6227,7 +6227,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6311,7 +6311,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6395,7 +6395,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6407,7 +6407,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -6473,7 +6473,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6567,7 +6567,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6684,7 +6684,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6779,7 +6779,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6863,7 +6863,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6935,7 +6935,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -6995,7 +6995,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -7089,7 +7089,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -7195,7 +7195,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -7279,7 +7279,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -7351,7 +7351,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -7411,7 +7411,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/colors.mjs",
+          "path": "Frontend/demo-map/src/runtime/colors.mjs",
           "symbol": "GameRGBColor",
           "confidence": "direct"
         },
@@ -7483,7 +7483,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -7567,7 +7567,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -7651,7 +7651,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -7723,7 +7723,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -7795,7 +7795,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -7879,7 +7879,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -7963,7 +7963,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8047,7 +8047,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8131,7 +8131,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8215,7 +8215,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8299,7 +8299,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8311,7 +8311,7 @@
         },
         {
           "type": "player-bundle",
-          "path": "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
+          "path": "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/457.36bf26873ad51e54.js",
           "symbol": "module 48388 EPSILON = 1e-6",
           "confidence": "supporting"
         }
@@ -8389,7 +8389,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8495,7 +8495,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8623,7 +8623,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8740,7 +8740,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8823,7 +8823,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8895,7 +8895,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -8979,7 +8979,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9063,7 +9063,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9147,7 +9147,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9219,7 +9219,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9291,7 +9291,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9397,7 +9397,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9491,7 +9491,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9563,7 +9563,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9647,7 +9647,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9719,7 +9719,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9791,7 +9791,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9863,7 +9863,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9923,7 +9923,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -9983,7 +9983,7 @@
         },
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         },
@@ -10035,7 +10035,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -10303,7 +10303,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -10334,7 +10334,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }
@@ -10360,7 +10360,7 @@
       "evidence": [
         {
           "type": "local-source",
-          "path": "demo-map/src/runtime/vector3.mjs",
+          "path": "Frontend/demo-map/src/runtime/vector3.mjs",
           "symbol": "Vector3 / GameVector3 compatibility implementation",
           "confidence": "direct"
         }

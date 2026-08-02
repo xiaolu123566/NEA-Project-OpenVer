@@ -18,7 +18,7 @@ const sharedRuntime = JSON.parse(await readFile(resolve(root, "generated", "loca
 const projectPath = "Frontend/demo-map/project/nea.map.json";
 const clientScriptPath = "Frontend/demo-map/project/scripts/client.js";
 const serverScriptPath = "Frontend/demo-map/project/scripts/server.js";
-const backendPath = "local-player/backend/box3-server.cjs";
+const backendPath = "Backend/local-player/backend/box3-server.cjs";
 const backendEventsPath = "Frontend/demo-map/src/backend-events.mjs";
 const demoServerPath = "Frontend/demo-map/src/server.mjs";
 const capabilityManifestPath = "Frontend/demo-map/src/capability-manifest.mjs";
@@ -26,17 +26,20 @@ const capabilityLaunchGatePath = "Frontend/demo-map/src/capability-launch-gate.m
 const capabilityInputDigestPath = "Frontend/demo-map/src/capability-input-digest.mjs";
 const capabilityInputNormalizePath = "Frontend/demo-map/src/capability-input-normalize.mjs";
 const controlClientPath = "Frontend/demo-map/src/control-client.mjs";
+const backendEventBridgePath = "Frontend/demo-map/src/backend-event-bridge.mjs";
 const historicalScriptShellPath = "origin/origin/origin/shell/ScriptShell.js";
+const historicalScriptShellRepoPath = "Evidence/origin/origin/origin/shell/ScriptShell.js";
 const projectSource = await readFile(resolve(repositoryRoot, projectPath), "utf8");
 const clientSource = await readFile(resolve(repositoryRoot, clientScriptPath), "utf8");
 const serverSource = await readFile(resolve(repositoryRoot, serverScriptPath), "utf8");
 const backendSource = await readFile(resolve(repositoryRoot, backendPath), "utf8");
 const backendEventsSource = await readFile(resolve(repositoryRoot, backendEventsPath), "utf8");
 const demoServerSource = await readFile(resolve(repositoryRoot, demoServerPath), "utf8");
+const backendEventBridgeSource = await readFile(resolve(repositoryRoot, backendEventBridgePath), "utf8");
 const capabilityManifestSource = await readFile(resolve(repositoryRoot, capabilityManifestPath), "utf8");
 const capabilityLaunchGateSource = await readFile(resolve(repositoryRoot, capabilityLaunchGatePath), "utf8");
 const controlClientSource = await readFile(resolve(repositoryRoot, controlClientPath), "utf8");
-const historicalScriptShellSource = await readFile(resolve(repositoryRoot, historicalScriptShellPath), "utf8");
+const historicalScriptShellSource = await readFile(resolve(repositoryRoot, historicalScriptShellRepoPath), "utf8");
 const project = JSON.parse(projectSource);
 
 for (const marker of ["version: 14", "inputs: Object.freeze", "normalizeCapabilityAssets", "normalizeCapabilityEntities", "normalizeCapabilityStorageScope", "normalizeCapabilityProjectIdentity", "normalizeCapabilityWorldConfig", "normalizeCapabilityRuntimeAbi", "collectStaticServerSoundReferences"]) {
@@ -111,8 +114,11 @@ for (const marker of ["input(client, data)", "context.gameNetPublicSessions.acce
 for (const marker of ["const input = line.match", 'type: "input-events"']) {
   if (!backendEventsSource.includes(marker)) throw new Error(`Launcher parser no longer proves Player input ingress: ${marker}`);
 }
-for (const marker of ['backendEvent?.type === "input-events"', "runtime.dispatchInputEvents(playerId, backendEvent.packet)"]) {
+for (const marker of ['dispatchBackendEvent(backendEvent)', 'createBackendEventBridge({ logger: console, playerSessions, runtime, sessionPlayers, spawnPoint })']) {
   if (!demoServerSource.includes(marker)) throw new Error(`Demo orchestration no longer proves Player input ingress: ${marker}`);
+}
+for (const marker of ['"input-events": handleInputEvents', "runtime.dispatchInputEvents(playerId, event.packet)"]) {
+  if (!backendEventBridgeSource.includes(marker)) throw new Error(`Backend event bridge no longer proves Player input ingress: ${marker}`);
 }
 for (const marker of ["ev.buttonState ^ ev.prevButtonState", "new GameClickEvent", "new GameInputEvent"]) {
   if (!historicalScriptShellSource.includes(marker)) throw new Error(`Historical ScriptShell no longer proves input event reconstruction: ${marker}`);
@@ -132,15 +138,15 @@ for (const marker of ['name: "entity-interact"', "interact: new import_schema5.M
 for (const marker of ["const interact = line.match", 'type: "entity-interact"']) {
   if (!backendEventsSource.includes(marker)) throw new Error(`Launcher parser no longer proves entity interaction ingress: ${marker}`);
 }
-for (const marker of ['backendEvent?.type === "entity-interact"', "runtime.dispatchInteract(playerId, backendEvent.entityId, backendEvent.tick)"]) {
-  if (!demoServerSource.includes(marker)) throw new Error(`Demo orchestration no longer proves entity interaction ingress: ${marker}`);
+for (const marker of ['"entity-interact": handleEntityInteract', "runtime.dispatchInteract(playerId, event.entityId, event.tick)"]) {
+  if (!backendEventBridgeSource.includes(marker)) throw new Error(`Backend event bridge no longer proves entity interaction ingress: ${marker}`);
 }
 for (const marker of ["event.interactEvents.forEach", "new GameInteractEvent", "this._dispatch(targetEntity.onInteract", "this._dispatch(this.world.onInteract"]) {
   if (!historicalScriptShellSource.includes(marker)) throw new Error(`Historical ScriptShell no longer proves interaction event construction: ${marker}`);
 }
 const interactEventFlowEvidence = [
   { type: "protocol-schema", path: "Middleware/runtime-compat/abi/protocols.json", symbol: "player.entity-interact.serverReceives.interact / clientReceives.acknowledgeInteract", confidence: "direct" },
-  { type: "player-bundle", path: "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js", symbol: "InteractProtocol target selection and {id,tick} send", confidence: "direct" },
+  { type: "player-bundle", path: "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js", symbol: "InteractProtocol target selection and {id,tick} send", confidence: "direct" },
   { type: "origin-source", path: historicalScriptShellPath, symbol: "ScriptShell interactEvents target-before-world dispatch", confidence: "direct" },
   { type: "local-source", path: backendPath, symbol: "createEntityInteractHandlers / entity-interact structured ingress", confidence: "direct" },
   { type: "local-source", path: backendEventsPath, symbol: "parseBackendEvent entity-interact", confidence: "direct" },
@@ -204,8 +210,8 @@ for (const marker of ["function sessionBridgeLabel", "function matchesSessionLab
 for (const marker of ["requireSessionBridgeLabel", 'type: "player-join"', 'type: "player-leave"']) {
   if (!backendEventsSource.includes(marker)) throw new Error(`Launcher parser no longer proves Player session lifecycle: ${marker}`);
 }
-for (const marker of ['backendEvent?.type === "player-join"', "runtime.addPlayer", 'backendEvent?.type === "player-leave"', "runtime.removePlayer"]) {
-  if (!demoServerSource.includes(marker)) throw new Error(`Demo orchestration no longer proves Player session lifecycle: ${marker}`);
+for (const marker of ['"player-join": handlePlayerJoin', '"player-leave": handlePlayerLeave', "runtime.addPlayer(", "runtime.removePlayer("]) {
+  if (!backendEventBridgeSource.includes(marker)) throw new Error(`Backend event bridge no longer proves Player session lifecycle: ${marker}`);
 }
 const playerSessionLifecycleEvidence = [
   { type: "protocol-schema", path: "Middleware/runtime-compat/abi/protocols.json", symbol: "player.game-net.serverReceives.join", confidence: "direct" },
@@ -229,7 +235,7 @@ const architecture = {
     layer("client-script-runtime", "execution", "Runs clientIndex.js in the archived Player SES Compartment with client-only globals.", ["dao3-client-runtime/v1"], ["Middleware/runtime-compat/generated/player-client-script-runtime-analysis.json"]),
     layer("server-script-runtime", "execution", "Runs the authoritative map script in an isolated VM and gates every implemented mutation or event API by server capability.", ["nea-server-runtime/v1"], ["Frontend/demo-map/src/runtime/script-runtime.mjs", "Middleware/runtime-compat/generated/local-server-runtime-analysis.json", "Middleware/runtime-compat/abi/server-object-model.json", "Middleware/runtime-compat/abi/runtime-entity-adapter-map.json", "Middleware/runtime-compat/abi/runtime-player-adapter-map.json"]),
     layer("mudb-transport", "transport", "Serializes recovered protocol envelopes and preserves message direction without interpreting map payloads.", ["mudb-transport/v1", "nea-protocol-abi/v1"], ["Middleware/runtime-compat/abi/protocols.json"]),
-    layer("authoritative-game-runtime", "state", "Owns ticks, players, rigid bodies and accepted state transitions used to produce PUBLIC network state.", ["nea-authoritative-runtime/v1"], ["local-player/backend/box3-server.cjs", "Middleware/runtime-compat/generated/player-network-body-analysis.json"]),
+    layer("authoritative-game-runtime", "state", "Owns ticks, players, rigid bodies and accepted state transitions used to produce PUBLIC network state.", ["nea-authoritative-runtime/v1"], ["Backend/local-player/backend/box3-server.cjs", "Middleware/runtime-compat/generated/player-network-body-analysis.json"]),
   ],
   contracts,
   compatibilityMatrix: {

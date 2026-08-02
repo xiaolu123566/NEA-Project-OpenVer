@@ -4,7 +4,7 @@
   "subject": "compatibility backend player rigid-body producer and remediation",
   "sources": [
     {
-      "path": "local-player/backend/box3-server.cjs",
+      "path": "Backend/local-player/backend/box3-server.cjs",
       "role": "current executable backend"
     },
     {

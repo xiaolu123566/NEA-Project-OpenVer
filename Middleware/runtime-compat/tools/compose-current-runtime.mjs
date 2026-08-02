@@ -44,7 +44,7 @@ function profileEntries() {
     profile("server.authoritativeRuntime.contract", "server", "authoritativeRuntime", "contract", {
       id: "nea-authoritative-runtime/v1",
       owns: ["ticks", "players", "rigid-bodies", "accepted-state-transitions"],
-    }, "emulated", "Network and scripts submit state transitions to the authoritative runtime instead of owning wire state.", "local-player/backend/box3-server.cjs", "AuthoritativeGameRuntime"),
+    }, "emulated", "Network and scripts submit state transitions to the authoritative runtime instead of owning wire state.", "Backend/local-player/backend/box3-server.cjs", "AuthoritativeGameRuntime"),
     profile("physics.playerBody.profile", "physics", "playerBody", "profile", {
       required: ["profileId", "origin", "originStatus", "sizeStatus", "boundsHalfExtents", "shapeHalfExtents", "evidence"],
     }, "emulated", "Body-center origin and upright Player default bounds/shape half extents 0.45x1.1x0.45 are confirmed; the two field groups remain independent for future posture deltas.", "Frontend/demo-map/src/runtime/physics/player-body.mjs", "requirePlayerBodyProfile", "partial"),

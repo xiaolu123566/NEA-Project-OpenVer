@@ -24,6 +24,6 @@ export const entityAutomaticSoundEvidenceConformance = Object.freeze({
     "origin/origin/origin/sync/ScriptEntitySync.js",
     "dump/dump/view.goboxgame.com_734.8dcb480d99773395.js",
     "Middleware/runtime-compat/abi/protocols.json",
-    "local-player/backend/box3-server.cjs",
+    "Backend/local-player/backend/box3-server.cjs",
   ]),
 });

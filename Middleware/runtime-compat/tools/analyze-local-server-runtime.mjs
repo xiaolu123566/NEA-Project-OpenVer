@@ -1059,7 +1059,7 @@ function purchaseSuccessEventEntries() {
     value.evidence = [
       { type: "local-source", path: relativeSourcePath, symbol: `RuntimePurchaseSuccessEvent.${value.name}`, confidence: "direct" },
       { type: "declaration", path: "origin/third-party/ArenaPro-CLI/server/types/GameAPI.d.ts", symbol: `GamePurchaseSuccessEvent.${value.name}`, confidence: "direct" },
-      { type: "transport", path: "local-player/reports/runtime-abi.md", symbol: "market-script", confidence: "direct" },
+      { type: "transport", path: "Backend/local-player/reports/runtime-abi.md", symbol: "market-script", confidence: "direct" },
       { type: "test", path: "Middleware/runtime-compat/test/purchase-success-event-conformance.test.mjs", symbol: "Purchase success event conformance", confidence: "direct" },
     ];
   }
@@ -1092,7 +1092,7 @@ function gameButtonTypeEntries() {
   const evidence = [
     { type: "local-source", path: relativeSourcePath, symbol: "GameButtonType", confidence: "direct" },
     { type: "declaration", path: "origin/third-party/ArenaPro-CLI/server/types/GameAPI.d.ts", symbol: "GameButtonType", confidence: "direct" },
-    { type: "historical-bundle", path: "local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js", symbol: "GameButtonType", confidence: "direct" },
+    { type: "historical-bundle", path: "Backend/local-player/archive/project/bedwars/client-runtime/assets/_next/static/chunks/734.8dcb480d99773395.js", symbol: "GameButtonType", confidence: "direct" },
     { type: "test", path: "Frontend/demo-map/test/runtime.test.mjs", symbol: "game-net input events reconstruct GameInputEvent press and release payloads", confidence: "direct" },
   ];
   const object = entry("server.global.GameButtonType", "object", null, "GameButtonType", { type: "Readonly<GameButtonType>" }, null, "emulated");
